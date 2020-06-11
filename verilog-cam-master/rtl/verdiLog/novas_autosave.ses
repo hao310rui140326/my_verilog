@@ -1,0 +1,51 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+viewport = 323 372 1468 1022 479 667 164 1466
+activeNode = "cam"
+activeScope = "cam"
+activeFile = "/home/hao/wrk/my_verilog/verilog-cam-master/rtl/cam.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 24
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "cam"
+Scope2 = "cam.genblk1.cam_inst"
+Scope3 = "cam.genblk1.cam_inst.slice[15]"
+Scope4 = "cam.genblk1.cam_inst.slice[0]"
+Scope5 = "cam.genblk1.cam_inst.slice[0].ram_inst"
+Scope6 = "cam.genblk1"
+multipleSelection = 1 31 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = cam
+File = /home/hao/wrk/my_verilog/verilog-cam-master/rtl/cam.v
+Line = 25
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/hao/wrk/my_verilog/verilog-cam-master/rtl
+design = DebussyLib
+hostCommand = hostCommand /home/hao/wrk/my_verilog/verilog-cam-master/rtl/ram_dp.v /home/hao/wrk/my_verilog/verilog-cam-master/rtl/priority_encoder.v /home/hao/wrk/my_verilog/verilog-cam-master/rtl/cam_srl.v /home/hao/wrk/my_verilog/verilog-cam-master/rtl/cam_bram.v /ho\
+me/hao/wrk/my_verilog/verilog-cam-master/rtl/cam.v

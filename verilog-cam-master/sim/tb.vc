@@ -1,0 +1,8 @@
++incdir+./
+../rtl/cam_bram.v  
+../rtl/cam_srl.v  
+../rtl/cam.v  
+../rtl/priority_encoder.v  
+../rtl/ram_dp.v
+tx_sys.v
+tb.sv

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jun  3 15:01:09 2020
+# Process ID: 23217
+# Current directory: /home/hao/wrk/my_verilog/verilog-cam-master/prj
+# Command line: vivado
+# Log file: /home/hao/wrk/my_verilog/verilog-cam-master/prj/vivado.log
+# Journal file: /home/hao/wrk/my_verilog/verilog-cam-master/prj/vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  3 15:02:57 2020...

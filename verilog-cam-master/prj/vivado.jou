@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jun  3 15:05:33 2020
+# Process ID: 23752
+# Current directory: /home/hao/wrk/my_verilog/verilog-cam-master/prj
+# Command line: vivado
+# Log file: /home/hao/wrk/my_verilog/verilog-cam-master/prj/vivado.log
+# Journal file: /home/hao/wrk/my_verilog/verilog-cam-master/prj/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project my_cam /home/hao/wrk/my_verilog/verilog-cam-master/prj/my_cam -part xcvu37p-fsvh2892-2L-e
+set_property board_part inspur.com:f37x:part0:1.2 [current_project]
+add_files -norecurse {/home/hao/wrk/my_verilog/verilog-cam-master/rtl/cam.v /home/hao/wrk/my_verilog/verilog-cam-master/rtl/cam_bram.v /home/hao/wrk/my_verilog/verilog-cam-master/rtl/cam_srl.v /home/hao/wrk/my_verilog/verilog-cam-master/rtl/priority_encoder.v /home/hao/wrk/my_verilog/verilog-cam-master/rtl/ram_dp.v}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top cam [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1

@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jun  3 15:05:33 2020
+# Process ID: 23752
+# Current directory: /home/hao/wrk/my_verilog/verilog-cam-master/prj
+# Command line: vivado
+# Log file: /home/hao/wrk/my_verilog/verilog-cam-master/prj/vivado.log
+# Journal file: /home/hao/wrk/my_verilog/verilog-cam-master/prj/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project my_cam /home/hao/wrk/my_verilog/verilog-cam-master/prj/my_cam -part xcvu37p-fsvh2892-2L-e
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.1/data/ip'.
+create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:34 . Memory (MB): peak = 6458.543 ; gain = 35.953 ; free physical = 19064 ; free virtual = 23559
+set_property board_part inspur.com:f37x:part0:1.2 [current_project]
+add_files -norecurse {/home/hao/wrk/my_verilog/verilog-cam-master/rtl/cam.v /home/hao/wrk/my_verilog/verilog-cam-master/rtl/cam_bram.v /home/hao/wrk/my_verilog/verilog-cam-master/rtl/cam_srl.v /home/hao/wrk/my_verilog/verilog-cam-master/rtl/priority_encoder.v /home/hao/wrk/my_verilog/verilog-cam-master/rtl/ram_dp.v}
+update_compile_order -fileset sources_1
+set_property top cam [current_fileset]
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Jun  3 15:08:13 2020] Launched synth_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/verilog-cam-master/prj/my_cam/my_cam.runs/synth_1/runme.log
+[Wed Jun  3 15:08:14 2020] Launched impl_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/verilog-cam-master/prj/my_cam/my_cam.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xcvu37p-fsvh2892-2L-e
+INFO: [Device 21-403] Loading part xcvu37p-fsvh2892-2L-e
+INFO: [Netlist 29-17] Analyzing 145 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7743.633 ; gain = 0.000 ; free physical = 17060 ; free virtual = 21943
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 142 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 137 instances
+  RAM32M16 => RAM32M16 (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 5 instances
+
+open_run: Time (s): cpu = 00:00:45 ; elapsed = 00:00:38 . Memory (MB): peak = 8246.812 ; gain = 1676.066 ; free physical = 16562 ; free virtual = 21448
+report_utilization -name utilization_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  3 17:51:23 2020...
