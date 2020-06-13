@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jun 11 16:14:11 2020
+# Process ID: 29454
+# Current directory: /home/hao/wrk/my_verilog/my_compare/prj
+# Command line: vivado
+# Log file: /home/hao/wrk/my_verilog/my_compare/prj/vivado.log
+# Journal file: /home/hao/wrk/my_verilog/my_compare/prj/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project my_com /home/hao/wrk/my_verilog/my_compare/prj/my_com -part xcvu37p-fsvh2892-2L-e
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.1/data/ip'.
+create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 6471.188 ; gain = 46.324 ; free physical = 17889 ; free virtual = 22943
+set_property board_part inspur.com:f37x:part0:1.2 [current_project]
+add_files -norecurse {/home/hao/wrk/my_verilog/my_compare/rtl/com_logic_reg.v /home/hao/wrk/my_verilog/my_compare/rtl/group_pipline.v /home/hao/wrk/my_verilog/my_compare/rtl/reg_delay.v /home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v /home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Thu Jun 11 16:16:09 2020] Launched synth_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jun 11 16:24:04 2020] Launched synth_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jun 11 16:32:32 2020] Launched synth_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jun 11 16:34:23 2020] Launched synth_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jun 11 16:47:31 2020] Launched synth_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jun 11 16:49:50 2020] Launched synth_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jun 12 08:39:33 2020] Launched synth_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jun 12 08:40:30 2020] Launched synth_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jun 12 08:43:09 2020] Launched synth_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jun 12 09:02:50 2020] Launched synth_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log
+add_files -norecurse /home/hao/wrk/my_verilog/my_compare/rtl/com_logic.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jun 12 09:03:33 2020] Launched synth_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jun 12 09:09:50 2020] Launched synth_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xcvu37p-fsvh2892-2L-e
+INFO: [Device 21-403] Loading part xcvu37p-fsvh2892-2L-e
+INFO: [Netlist 29-17] Analyzing 9985 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 9024.035 ; gain = 0.000 ; free physical = 14568 ; free virtual = 20277
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8193 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 8193 instances
+
+open_run: Time (s): cpu = 00:01:32 ; elapsed = 00:01:23 . Memory (MB): peak = 9423.191 ; gain = 2216.996 ; free physical = 14009 ; free virtual = 19718
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:28 ; elapsed = 00:00:12 . Memory (MB): peak = 9619.363 ; gain = 189.168 ; free physical = 13636 ; free virtual = 19345
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jun 12 09:25:02 2020] Launched synth_1...
+Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log
+CRITICAL WARNING: [Common 17-1649] The Vivado message database '/home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/vivado.pb' contains 53178 messages. Restoring all messages from this message database will impact Vivado performance, so only WARNING, CRITICAL WARNING, and ERROR messages will be restored. To restore all messages from this file use the tcl command 'set_param messaging.loadPbLimit 53179' and re-open the project.
+report_utilization -name utilization_2
+report_utilization: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 10874.984 ; gain = 0.000 ; free physical = 13444 ; free virtual = 17902
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xcvu37p-fsvh2892-2L-e
+INFO: [Netlist 29-17] Analyzing 86017 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 12 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.40 ; elapsed = 00:00:00.39 . Memory (MB): peak = 16842.816 ; gain = 0.000 ; free physical = 8999 ; free virtual = 13614
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 65537 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 65537 instances
+
+open_run: Time (s): cpu = 00:08:57 ; elapsed = 00:09:41 . Memory (MB): peak = 16847.820 ; gain = 5972.836 ; free physical = 8288 ; free virtual = 12898
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:03:28 ; elapsed = 00:01:33 . Memory (MB): peak = 17669.832 ; gain = 822.012 ; free physical = 6665 ; free virtual = 11279
+reset_run synth_1
+create_run synth_2 -flow {Vivado Synthesis 2019}
+Run is defaulting to srcset: sources_1
+Run is defaulting to constrset: constrs_1
+Run is defaulting to part: xcvu37p-fsvh2892-2L-e
+launch_runs synth_2 -jobs 4
+[Fri Jun 12 11:00:29 2020] Launched synth_2...
+Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_2/runme.log
+current_run [get_runs synth_2]

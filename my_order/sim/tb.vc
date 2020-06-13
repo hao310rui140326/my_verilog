@@ -1,0 +1,13 @@
++incdir+./
+../rtl/com_logic_reg.v  
+../rtl/com_logic.v  
+../rtl/com_pipline.v  
+../rtl/group_pipline.v  
+../rtl/iter_pipline.v 
+../rtl/com_inline.v  
+../rtl/group_inline.v  
+../rtl/iter_inline.v   
+../rtl/reg_delay.v
+../rtl/com_mux.v
+tx_sys.v
+tb.sv

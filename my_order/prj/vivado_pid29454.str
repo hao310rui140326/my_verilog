@@ -1,0 +1,1830 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:47:09 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 29454
+License: Customer
+
+Current time: 	Thu Jun 11 16:14:30 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Ubuntu
+OS Version: 5.4.0-33-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 2560x1440
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 686 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	hao
+User home directory: /home/hao
+User working directory: /home/hao/wrk/my_verilog/my_compare/prj
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2019.1
+RDI_DATADIR: /tools/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/hao/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/hao/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/hao/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/tools/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/hao/wrk/my_verilog/my_compare/prj/vivado.log
+Vivado journal file location: 	/home/hao/wrk/my_verilog/my_compare/prj/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-29454-hao-Lenovo-Rescuer-15ISK
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2019.1
+XILINX_SDK: /tools/Xilinx/SDK/2019.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	223 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 937 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x (w, cl)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [GUI Memory]: 95 MB (+96744kb) [00:00:07]
+// [Engine Memory]: 887 MB (+778189kb) [00:00:07]
+// [Engine Memory]: 936 MB (+4813kb) [00:00:10]
+// [GUI Memory]: 112 MB (+13140kb) [00:00:10]
+// f (cl): New Project: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 51 MB. Current time: 6/11/20, 4:14:30 PM CST
+selectButton("NEXT", "Next >"); // JButton (j, f)
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "my_com"); // Y (Q, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (E, f)
+String[] filenames31467 = {"/home/hao/wrk/my_verilog/my_compare/rtl/com_logic_reg.v", "/home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v", "/home/hao/wrk/my_verilog/my_compare/rtl/group_pipline.v", "/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v", "/home/hao/wrk/my_verilog/my_compare/rtl/reg_delay.v"};
+setFileChooser(filenames31467);
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// [GUI Memory]: 202 MB (+88201kb) [00:00:41]
+// [Engine Memory]: 991 MB (+9198kb) [00:00:41]
+// WARNING: HEventQueue.dispatchEvent() is taking  1743 ms.
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, (HResource) null, "Boards", 1); // i (T, f)
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, (HResource) null, "Boards", 1); // i (T, f)
+// HMemoryUtils.trashcanNow. Engine heap size: 941 MB. GUI used memory: 52 MB. Current time: 6/11/20, 4:15:01 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2815 ms.
+selectTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "F37X Acceleration Development Board ; F37X Acceleration Development Board ; inspur.com ; 1.2 ; xcvu37p-fsvh2892-2L-e ; 2892 ; 1.0 ; 624 ; 1303680 ; 2607360 ; 2016 ; 960 ; 9024 ; 96 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 96 ; 6 ; 12 ; 0 ; 100 ; 100 ; E ; 0.825 ; 0.850 ; 0.876", 3, "F37X Acceleration Development Board", 0); // d (O, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// by (f):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project my_com /home/hao/wrk/my_verilog/my_compare/prj/my_com -part xcvu37p-fsvh2892-2L-e 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 1,044 MB (+3327kb) [00:00:52]
+// WARNING: HEventQueue.dispatchEvent() is taking  2126 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 6471.188 ; gain = 46.324 ; free physical = 17889 ; free virtual = 22943 
+// TclEventType: BOARD_MODIFIED
+// Tcl Message: set_property board_part inspur.com:f37x:part0:1.2 [current_project] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {/home/hao/wrk/my_verilog/my_compare/rtl/com_logic_reg.v /home/hao/wrk/my_verilog/my_compare/rtl/group_pipline.v /home/hao/wrk/my_verilog/my_compare/rtl/reg_delay.v /home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v /home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v} 
+selectButton("FINISH", "Finish"); // JButton (j, f)
+// 'g' command handler elapsed time: 47 seconds
+dismissDialog("Create Project"); // by (f)
+dismissDialog("New Project"); // f (cl)
+// [Engine Memory]: 1,101 MB (+4956kb) [00:00:56]
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, false); // B (F, cl)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,087 MB. GUI used memory: 61 MB. Current time: 6/11/20, 4:15:25 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectCodeEditor("com_pipline.v", 195, 374); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 196, 373, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 208, 382); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 208, 382, false, false, false, false, true); // cl (w, cl) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Thu Jun 11 16:16:09 2020] Launched synth_1... Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // by (cl)
+selectCodeEditor("com_pipline.v", 288, 320); // cl (w, cl)
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("com_pipline.v", 260, 297); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 226, 307); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 229, 263); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 211, 233); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 216, 254); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 211, 280); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 219, 307); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 227, 293); // cl (w, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 407, 79); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 434, 105); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 434, 105, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 434, 105); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 410, 98); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 410, 98, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 410, 98); // n (q, cl)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 396, 112); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 396, 112, false, false, false, false, true); // n (q, cl) - Double Click
+// ah (cl): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory write_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:68]. ]", 1, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;68;-;;-;16;-;"); // ah (O, cl)
+selectCodeEditor("iter_pipline.v", 352, 401); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 352, 401, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 40 seconds
+selectCodeEditor("iter_pipline.v", 525, 397); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 525, 396, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "com_pipline.v", 1); // k (j, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory write_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:68]. ]", 1, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;68;-;;-;16;-;"); // ah (O, cl)
+// Elapsed time: 36 seconds
+selectCodeEditor("iter_pipline.v", 356, 287); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 140, 137); // cl (w, cl)
+// Elapsed time: 15 seconds
+selectCodeEditor("iter_pipline.v", 526, 493); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 527, 492, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 452, 492); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 453, 492, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 404, 487); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 404, 487, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 451, 485); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 452, 485, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 532, 492); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 532, 492, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 618, 442); // cl (w, cl)
+// Elapsed time: 92 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-69] Command failed: Vivado Synthesis failed. ]", 2, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory write_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:68]. ]", 1, true); // ah (O, cl) - Node
+selectCodeEditor("iter_pipline.v", 416, 255); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 415, 396); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 415, 396, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 469, 400); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 469, 400, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 522, 395); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 521, 394, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 560, 249); // cl (w, cl)
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("com_pipline.v", 340, 379); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 340, 379, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 328, 394); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 328, 393, false, false, false, false, true); // cl (w, cl) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v)]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v)]", 2, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("iter_pipline.v", 371, 379); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 369, 377, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("iter_pipline.v", 524, 441); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 523, 439, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "com_pipline.v", 1); // k (j, cl)
+selectCodeEditor("com_pipline.v", 235, 144); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 235, 144, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 273, 126); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 273, 126, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 213, 388); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 214, 388, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 210, 391); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 209, 390, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 223, 383); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 223, 383, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 268, 378); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 268, 378, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 431, 362); // cl (w, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-69] Command failed: Vivado Synthesis failed. ]", 2, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory write_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:68]. ]", 1, true); // ah (O, cl) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory write_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:68]. ]", 1, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;68;-;;-;16;-;"); // ah (O, cl)
+selectCodeEditor("iter_pipline.v", 372, 460); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 371, 459, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 494, 453); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 494, 453, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 455, 445); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 455, 445, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cl)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// D (cl): Settings: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1929 ms.
+selectButton(PAResourceTtoZ.VerilogOptionsChooserPanel_SPECIFY_COMPILATION_OPTIONS_FOR_VERILOG, (String) null); // q (a, D)
+// b (D): Verilog Options: addNotify
+dismissDialog("Verilog Options"); // b (D)
+selectButton(PAResourceTtoZ.VerilogOptionsChooserPanel_SPECIFY_COMPILATION_OPTIONS_FOR_VERILOG, (String) null); // q (a, D)
+// b (D): Verilog Options: addNotify
+selectButton(PAResourceItoN.MultiFileChooser_ADD_DIRECTORIES, "Add Directories"); // B (f, b)
+dismissFolderChooser();
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (b)
+dismissDialog("Verilog Options"); // b (D)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (D)
+dismissDialog("Settings"); // D (cl)
+selectCodeEditor("iter_pipline.v", 405, 359); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 464, 437); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 464, 437, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 408, 444); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 408, 444, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 27 seconds
+selectCodeEditor("iter_pipline.v", 471, 392); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 509, 444); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 454, 426); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 387, 442); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 333, 41); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,161 MB (+5681kb) [00:08:36]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,161 MB. GUI used memory: 77 MB. Current time: 6/11/20, 4:23:00 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 68 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Thu Jun 11 16:24:04 2020] Launched synth_1... Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // by (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,194 MB. GUI used memory: 77 MB. Current time: 6/11/20, 4:24:05 PM CST
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("com_pipline.v", 224, 388); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 224, 386, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 224, 386); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 187, 408); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 187, 408, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 187, 408); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 180, 461); // cl (w, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Synthesis Failed: addNotify
+// Elapsed time: 21 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory write_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:68]. ]", 1, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;68;-;;-;16;-;"); // ah (O, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,226 MB (+7180kb) [00:15:44]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,226 MB. GUI used memory: 77 MB. Current time: 6/11/20, 4:30:05 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,258 MB. GUI used memory: 77 MB. Current time: 6/11/20, 4:32:25 PM CST
+// Elapsed time: 472 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Thu Jun 11 16:32:32 2020] Launched synth_1... Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // by (cl)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 11 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+// [Engine Memory]: 1,301 MB (+14212kb) [00:18:27]
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,301 MB. GUI used memory: 78 MB. Current time: 6/11/20, 4:32:50 PM CST
+// ah (cl): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1050] wr_data needs 2 dimensions [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:84]. ]", 1, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;84;-;;-;16;-;"); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory compare_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:85]. ]", 2, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1050] wr_data needs 2 dimensions [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:84]. ]", 1, false); // ah (O, cl)
+selectCodeEditor("iter_pipline.v", 398, 397); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 398, 397, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 333, 397); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 333, 397, false, false, false, false, true); // cl (w, cl) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,333 MB. GUI used memory: 78 MB. Current time: 6/11/20, 4:34:05 PM CST
+// Elapsed time: 68 seconds
+selectCodeEditor("iter_pipline.v", 286, 97); // cl (w, cl)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Thu Jun 11 16:34:23 2020] Launched synth_1... Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Synthesis Failed: addNotify
+// Elapsed time: 737 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1050] wr_data needs 2 dimensions [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:84]. ]", 1, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;84;-;;-;16;-;"); // ah (O, cl)
+selectCodeEditor("iter_pipline.v", 394, 440); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 215, 400); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 215, 400, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 215, 400); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 226, 421); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 395, 396); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 395, 396, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 418, 294); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 437, 398); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 29 seconds
+selectCodeEditor("iter_pipline.v", 430, 416); // cl (w, cl)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Thu Jun 11 16:47:31 2020] Launched synth_1... Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log 
+// [Engine Memory]: 1,402 MB (+37220kb) [00:33:12]
+dismissDialog("Starting Design Runs"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,370 MB. GUI used memory: 79 MB. Current time: 6/11/20, 4:47:35 PM CST
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK (aH, cl)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory wr_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:84]. ]", 1, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;84;-;;-;16;-;"); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory wr_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:84]. ]", 1, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;84;-;;-;16;-;"); // ah (O, cl)
+// Elapsed time: 43 seconds
+selectCodeEditor("iter_pipline.v", 463, 392); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 463, 390, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 399, 394); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 399, 393, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 464, 399); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 464, 399, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 390, 402); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 390, 401, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 321, 406); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 321, 406, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("iter_pipline.v", 400, 317); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 337, 397); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 337, 395, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory wr_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:84]. ]", 1, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;84;-;;-;16;-;"); // ah (O, cl)
+selectCodeEditor("iter_pipline.v", 337, 488); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 337, 488, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("iter_pipline.v", 435, 489); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Thu Jun 11 16:49:50 2020] Launched synth_1... Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 257, 44); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 257, 44, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 257, 44); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 241, 94); // n (q, cl)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Synthesis Failed: addNotify
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1050] wr_data needs 2 dimensions [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:84]. ]", 1, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;84;-;;-;16;-;"); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1050] wr_data needs 2 dimensions [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:84]. ]", 1, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;84;-;;-;16;-;"); // ah (O, cl)
+selectCodeEditor("iter_pipline.v", 229, 388); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 364, 342); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 328, 492); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 328, 492, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1050] wr_data needs 2 dimensions [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:84]. ]", 1, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;84;-;;-;16;-;"); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory compare_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:85]. ]", 2, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;85;-;;-;16;-;"); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1050] wr_data needs 2 dimensions [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:84]. ]", 1, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;84;-;;-;16;-;"); // ah (O, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,387 MB. GUI used memory: 74 MB. Current time: 6/11/20, 5:17:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,377 MB. GUI used memory: 71 MB. Current time: 6/11/20, 5:47:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,376 MB. GUI used memory: 71 MB. Current time: 6/11/20, 6:17:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,376 MB. GUI used memory: 71 MB. Current time: 6/11/20, 6:47:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,376 MB. GUI used memory: 71 MB. Current time: 6/11/20, 7:17:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,376 MB. GUI used memory: 71 MB. Current time: 6/11/20, 7:47:35 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/11/20, 8:17:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/11/20, 8:47:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/11/20, 9:17:36 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/11/20, 9:47:36 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/11/20, 10:17:36 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/11/20, 10:47:36 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/11/20, 11:17:36 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/11/20, 11:47:36 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 12:17:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 12:47:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 1:17:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 1:47:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 2:17:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 2:47:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 3:17:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 3:47:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 4:17:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 4:47:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 5:17:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 5:47:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 6:17:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 6:47:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 7:17:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 7:47:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,392 MB. GUI used memory: 71 MB. Current time: 6/12/20, 8:17:37 AM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,425 MB. GUI used memory: 71 MB. Current time: 6/12/20, 8:31:27 AM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,473 MB. GUI used memory: 71 MB. Current time: 6/12/20, 8:33:17 AM CST
+// [Engine Memory]: 1,473 MB (+957kb) [16:18:59]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,505 MB. GUI used memory: 71 MB. Current time: 6/12/20, 8:36:12 AM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,537 MB. GUI used memory: 71 MB. Current time: 6/12/20, 8:38:22 AM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,553 MB (+6912kb) [16:24:27]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,569 MB. GUI used memory: 71 MB. Current time: 6/12/20, 8:39:17 AM CST
+// Elapsed time: 56940 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // az (f, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ah (cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jun 12 08:39:33 2020] Launched synth_1... Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Synthesis Failed: addNotify
+// Elapsed time: 23 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory write_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:79]. ]", 1, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;79;-;;-;16;-;"); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory write_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:79]. ]", 1, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;79;-;;-;16;-;"); // ah (O, cl)
+selectCodeEditor("iter_pipline.v", 353, 404); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 353, 404, false, false, false, false, true); // cl (w, cl) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 23 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jun 12 08:40:30 2020] Launched synth_1... Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 11 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v)]", 2); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1050] wr_data needs 2 dimensions [/home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v:115]. ]", 1, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v;-;;-;16;-;line;-;115;-;;-;16;-;"); // ah (O, cl)
+selectCodeEditor("com_pipline.v", 272, 200); // cl (w, cl)
+// Elapsed time: 61 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1050] wr_data needs 2 dimensions [/home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v:115]. ]", 1, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v;-;;-;16;-;line;-;115;-;;-;16;-;"); // ah (O, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,602 MB. GUI used memory: 75 MB. Current time: 6/12/20, 8:42:57 AM CST
+// Elapsed time: 74 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// [Engine Memory]: 1,652 MB (+22529kb) [16:28:48]
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jun 12 08:43:09 2020] Launched synth_1... Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v)]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v)]", 2, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectCodeEditor("com_pipline.v", 278, 171); // cl (w, cl)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 489, 84); // n (q, cl)
+// ah (cl): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory wr_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v:115]. ]", 1, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v;-;;-;16;-;line;-;115;-;;-;16;-;"); // ah (O, cl)
+selectCodeEditor("com_pipline.v", 338, 359); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 338, 359, false, false, false, false, true); // cl (w, cl) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("com_pipline.v", 278, 310); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 336, 382); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 336, 382, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 413, 381); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 425, 379); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 425, 379, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2515] part-select of memory wr_data is not allowed [/home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v:115]. ]", 1, true); // ah (O, cl) - Node
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,645 MB. GUI used memory: 75 MB. Current time: 6/12/20, 8:52:52 AM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,709 MB. GUI used memory: 76 MB. Current time: 6/12/20, 8:55:42 AM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,741 MB (+6222kb) [16:47:57]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,741 MB. GUI used memory: 75 MB. Current time: 6/12/20, 9:02:18 AM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 1138 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (f)
+dismissDialog("Launch Runs"); // f (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jun 12 09:02:50 2020] Launched synth_1... Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+applyEnter(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, (String) null); // u (O, cl)
+applyEnter(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, (String) null); // u (O, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 272, 32); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 272, 32, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 272, 32); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 262, 60); // n (q, cl)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Synthesis Failed: addNotify
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,761 MB. GUI used memory: 76 MB. Current time: 6/12/20, 9:03:12 AM CST
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-439] module 'com_logic' not found [/home/hao/wrk/my_verilog/my_compare/rtl/com_logic_reg.v:58]. ]", 1, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/com_logic_reg.v;-;;-;16;-;line;-;58;-;;-;16;-;"); // ah (O, cl)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cl): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (E, c)
+setFileChooser("/home/hao/wrk/my_verilog/my_compare/rtl/com_logic.v");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 6 seconds
+dismissDialog("Add Sources"); // c (cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/hao/wrk/my_verilog/my_compare/rtl/com_logic.v 
+selectCodeEditor("com_logic_reg.v", 183, 368); // cl (w, cl)
+selectCodeEditor("com_logic_reg.v", 183, 368, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_logic_reg.v", 177, 379); // cl (w, cl)
+selectCodeEditor("com_logic_reg.v", 177, 379, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_logic_reg.v", 210, 402); // cl (w, cl)
+selectCodeEditor("com_logic_reg.v", 210, 402, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_logic_reg.v", 203, 412); // cl (w, cl)
+selectCodeEditor("com_logic_reg.v", 203, 412, false, false, false, false, true); // cl (w, cl) - Double Click
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 1,831 MB (+2947kb) [16:49:11]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,786 MB. GUI used memory: 78 MB. Current time: 6/12/20, 9:03:32 AM CST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jun 12 09:03:33 2020] Launched synth_1... Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "com_logic_reg.v", 1); // k (j, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("com_pipline.v", 202, 376); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 202, 376, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 284, 348); // cl (w, cl)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 362, 36); // n (q, cl)
+// Elapsed time: 14 seconds
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK (aH, cl)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g (aR, cl): TRUE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.. ]", 2, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages]", 1, true); // ah (O, cl) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.. ]", 2, false); // ah (O, cl)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 329, 78); // n (q, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v)]", 2, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("com_pipline.v", 478, 378); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 478, 378, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 350, 380); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 350, 379, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 349, 393); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 349, 393, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 397, 380); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 397, 380, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 350, 385); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 350, 385, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 533, 99); // n (q, cl)
+selectCodeEditor("com_pipline.v", 112, 204); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 112, 204, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 133, 201); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 133, 201, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 221, 204); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 221, 204, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 346, 199); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 346, 199, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 72, 202); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 72, 202, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 333, 202); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 333, 202, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 429, 129); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 395, 145); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 395, 145, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 468, 145); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 468, 145, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 506, 110); // n (q, cl)
+// Elapsed time: 17 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectCodeEditor("com_pipline.v", 316, 208); // cl (w, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v), group[0].u_group_pipline : group_pipline (group_pipline.v)]", 3); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v)]", 2); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("com_pipline.v", 369, 196); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 78, 214); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 78, 214, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 107, 340); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 107, 340, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 366, 383); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 366, 383, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 360, 392); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 360, 392, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 545, 389); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 545, 389, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 618, 393); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 645, 395); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 645, 395, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 641, 372); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 626, 390); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 626, 390, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 637, 381); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 637, 381, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 616, 83); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 703, 60); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 703, 60, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 703, 60); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 663, 107); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 663, 107, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 663, 107); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 687, 65); // n (q, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 560, 280); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 560, 280, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 560, 280); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 551, 299); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 550, 299, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 550, 299); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 539, 348); // n (q, cl)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Synthesis Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 448 ; 448 ; 0.0 ; 0 ; 0 ; Fri Jun 12 09:03:34 CST 2020 ; 00:02:12 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 0, (String) null, 9, true); // ay (O, cl) - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.2s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, (String) null, 9, false); // ay (O, cl)
+selectTreeTableHeader(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "Failed Routes", 9); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 448 ; 448 ; 0.0 ; 0 ; 0 ; Fri Jun 12 09:03:34 CST 2020 ; 00:02:12 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 0, (String) null, 8, true); // ay (O, cl) - Node
+selectCodeEditor("com_pipline.v", 410, 135); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 284, 151); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 277, 217); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 277, 217, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 277, 217); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 259, 222); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 259, 222, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 259, 222); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 253, 229); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 253, 229, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 253, 229); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 304, 186); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 277, 223); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 277, 223, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 285, 236); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 285, 236, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 402, 172); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 350, 219); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 350, 219, false, false, false, false, true); // cl (w, cl) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,837 MB. GUI used memory: 86 MB. Current time: 6/12/20, 9:06:12 AM CST
+selectCodeEditor("com_pipline.v", 177, 217); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 177, 217, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 10 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK (aH, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2539] port write_data must not be declared to be an array [/home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v:45]. ]", 4, true); // ah (O, cl) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6014] Unused sequential element reg_in_dly02_reg was removed.  [/home/hao/wrk/my_verilog/my_compare/rtl/reg_delay.v:91]. ]", 5, true); // ah (O, cl) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2539] port write_data must not be declared to be an array [/home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v:45]. ]", 4, true); // ah (O, cl) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2539] port write_data must not be declared to be an array [/home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v:45]. ]", 4, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v;-;;-;16;-;line;-;45;-;;-;16;-;"); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2539] port write_data must not be declared to be an array [/home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v:45]. ]", 4, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v;-;;-;16;-;line;-;45;-;;-;16;-;"); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6014] Unused sequential element reg_in_dly02_reg was removed.  [/home/hao/wrk/my_verilog/my_compare/rtl/reg_delay.v:91]. ]", 5, true); // ah (O, cl) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6014] Unused sequential element reg_in_dly02_reg was removed.  [/home/hao/wrk/my_verilog/my_compare/rtl/reg_delay.v:91]. ]", 5, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/reg_delay.v;-;;-;16;-;line;-;91;-;;-;16;-;"); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (8192) of module 'group_pipline' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. ]", 6, true); // ah (O, cl) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (8192) of module 'group_pipline' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. ]", 6, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;83;-;;-;16;-;"); // ah (O, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,840 MB. GUI used memory: 86 MB. Current time: 6/12/20, 9:06:52 AM CST
+selectCodeEditor("iter_pipline.v", 193, 155); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 193, 155, false, false, false, false, true); // cl (w, cl) - Double Click
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (8192) of module 'group_pipline' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. ]", 6); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (8192) of module 'group_pipline' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. , [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (4096) of module 'group_pipline__parameterized0' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. ]", 7, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (8192) of module 'group_pipline' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. , [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (4096) of module 'group_pipline__parameterized0' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. ]", 8, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (8192) of module 'group_pipline' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. , [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (4096) of module 'group_pipline__parameterized0' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. ]", 7, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (8192) of module 'group_pipline' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. , [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (4096) of module 'group_pipline__parameterized0' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. ]", 7, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v;-;;-;16;-;line;-;83;-;;-;16;-;"); // ah (O, cl)
+// [Engine Memory]: 1,932 MB (+9888kb) [16:52:44]
+// Elapsed time: 10 seconds
+selectCodeEditor("iter_pipline.v", 151, 107); // cl (w, cl)
+selectCodeEditor("iter_pipline.v", 51, 187); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 2,037 MB (+8857kb) [16:54:41]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,037 MB. GUI used memory: 88 MB. Current time: 6/12/20, 9:09:02 AM CST
+// Elapsed time: 129 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (8192) of module 'group_pipline' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. , [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (512) of module 'group_pipline__parameterized3' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. ]", 22, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (8192) of module 'group_pipline' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. , [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (2048) of module 'group_pipline__parameterized1' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. ]", 10, false); // ah (O, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,872 MB. GUI used memory: 86 MB. Current time: 6/12/20, 9:09:32 AM CST
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design reg_delay has unconnected port rst_n. ]", 106, true); // ah (O, cl) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design reg_delay has unconnected port rst_n. ]", 106); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design reg_delay has unconnected port rst_n. , [Synth 8-3331] design iter_pipline__parameterized5 has unconnected port compare_data[8191]. ]", 107, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design reg_delay has unconnected port rst_n. , [Synth 8-3331] design iter_pipline__parameterized5 has unconnected port compare_data[8191]. ]", 107, false, false, false, false, false, true); // ah (O, cl) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design reg_delay has unconnected port rst_n. , [Synth 8-3331] design iter_pipline__parameterized5 has unconnected port compare_data[8191]. ]", 107, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design reg_delay has unconnected port rst_n. , [Synth 8-3331] design iter_pipline__parameterized5 has unconnected port compare_data[8190]. ]", 108, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design reg_delay has unconnected port rst_n. ]", 106, true); // ah (O, cl) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (8192) of module 'group_pipline' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. , [Synth 8-689] width (64) of port connection 'compare_data' does not match port width (128) of module 'group_pipline__parameterized5' [/home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v:83]. ]", 90, false, false, false, false, false, true); // ah (O, cl) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design reg_delay has unconnected port rst_n. ]", 106, true); // ah (O, cl) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design reg_delay has unconnected port rst_n. , [Synth 8-3331] design iter_pipline__parameterized5 has unconnected port compare_data[8176]. ]", 122, false, false, false, false, false, true); // ah (O, cl) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jun 12 09:09:50 2020] Launched synth_1... Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // by (cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("iter_pipline.v", 456, 116); // cl (w, cl)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 187, 57); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 185, 34); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 185, 34, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 185, 34); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 171, 108); // n (q, cl)
+selectTab(PAResourceItoN.LogView_TABBED_PANE, (HResource) null, "Implementation", 1); // i (A, cl)
+selectTab(PAResourceItoN.LogView_TABBED_PANE, (HResource) null, "Simulation", 2); // i (A, cl)
+selectTab(PAResourceItoN.LogView_TABBED_PANE, (HResource) null, "Implementation", 1); // i (A, cl)
+selectTab(PAResourceItoN.LogView_TABBED_PANE, (HResource) null, "Synthesis", 0); // i (A, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 247, 133); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 232, 157); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 168, 180); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 337, 190); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 1047, 123); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 223, 239); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 280, 283); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 279, 347); // n (q, cl)
+selectTab(PAResourceItoN.LogView_TABBED_PANE, (HResource) null, "Simulation", 2); // i (A, cl)
+selectTab(PAResourceItoN.LogView_TABBED_PANE, (HResource) null, "Implementation", 1); // i (A, cl)
+selectTab(PAResourceItoN.LogView_TABBED_PANE, (HResource) null, "Synthesis", 0); // i (A, cl)
+// Elapsed time: 28 seconds
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 774, 311); // n (q, cl)
+// Elapsed time: 91 seconds
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 553, 141); // n (q, cl)
+// Elapsed time: 36 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v), group[0].u_group_pipline : group_pipline (group_pipline.v)]", 3); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v)]", 2); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 394, 115); // n (q, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v)]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v)]", 2, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v), group[0].u_group_pipline : group_pipline (group_pipline.v)]", 3, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v), group[0].u_group_pipline : group_pipline (group_pipline.v), step[0].u_com_logic_reg : com_logic_reg (com_logic_reg.v), u_reg_delay0 : reg_delay (reg_delay.v)]", 6, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v), group[0].u_group_pipline : group_pipline (group_pipline.v), step[0].u_com_logic_reg : com_logic_reg (com_logic_reg.v), u_reg_delay0 : reg_delay (reg_delay.v)]", 6, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v), group[0].u_group_pipline : group_pipline (group_pipline.v), step[0].u_com_logic_reg : com_logic_reg (com_logic_reg.v), u_reg_delay0 : reg_delay (reg_delay.v)]", 6, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v), group[0].u_group_pipline : group_pipline (group_pipline.v), step[0].u_com_logic_reg : com_logic_reg (com_logic_reg.v)]", 4, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v), group[0].u_group_pipline : group_pipline (group_pipline.v), step[0].u_com_logic_reg : com_logic_reg (com_logic_reg.v)]", 4, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("com_logic_reg.v", 600, 260); // cl (w, cl)
+selectCodeEditor("com_logic_reg.v", 600, 260, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_logic_reg.v", 601, 274); // cl (w, cl)
+selectCodeEditor("com_logic_reg.v", 601, 274, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 701, 150); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 546, 226); // n (q, cl)
+// Elapsed time: 13 seconds
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 378, 272); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 378, 272, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 378, 272); // n (q, cl)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Synthesis Completed: addNotify
+// Elapsed time: 90 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Synthesis Completed"); // ah (cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTreeTableHeader(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "FF", 11); // ay (O, cl)
+selectTreeTableHeader(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "FF", 11); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 43008 ; 57344 ; 0.0 ; 0 ; 0 ; Fri Jun 12 09:09:52 CST 2020 ; 00:04:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 0, (String) null, 11, true); // ay (O, cl) - Node
+// Elapsed time: 31 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, (String) null, 10, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 43008 ; 57344 ; 0.0 ; 0 ; 0 ; Fri Jun 12 09:09:52 CST 2020 ; 00:04:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 0, (String) null, 10, true); // ay (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, (String) null, 10, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 43008 ; 57344 ; 0.0 ; 0 ; 0 ; Fri Jun 12 09:09:52 CST 2020 ; 00:04:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 0, (String) null, 10, true); // ay (O, cl) - Node
+selectCodeEditor("com_logic_reg.v", 435, 214); // cl (w, cl)
+// Elapsed time: 233 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, (String) null, 6, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 43008 ; 57344 ; 0.0 ; 0 ; 0 ; Fri Jun 12 09:09:52 CST 2020 ; 00:04:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 0, "synth_design Complete!", 2, true); // ay (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 43008 ; 57344 ; 0.0 ; 0 ; 0 ; Fri Jun 12 09:09:52 CST 2020 ; 00:04:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 0, "synth_design Complete!", 2, true); // ay (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 43008 ; 57344 ; 0.0 ; 0 ; 0 ; Fri Jun 12 09:09:52 CST 2020 ; 00:04:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 0, "synth_design Complete!", 2, true); // ay (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectCodeEditor("com_logic_reg.v", 176, 82); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "com_pipline.v", 1); // k (j, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v), group[0].u_group_pipline : group_pipline (group_pipline.v)]", 3); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v)]", 2); // B (F, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// by (cl):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xcvu37p-fsvh2892-2L-e 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (by)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 43008 ; 57344 ; 0.0 ; 0 ; 0 ; Fri Jun 12 09:09:52 CST 2020 ; 00:04:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 0, "synth_design Complete!", 2, true); // ay (O, cl) - Node
+selectCodeEditor("com_pipline.v", 322, 101); // cl (w, cl)
+// [Engine Memory]: 2,305 MB (+174706kb) [17:05:56]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[0].u_iter_pipline : iter_pipline (iter_pipline.v)]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[1].u_iter_pipline : iter_pipline (iter_pipline.v)]", 3, true); // B (F, cl) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 2,206 MB. GUI used memory: 92 MB. Current time: 6/12/20, 9:20:18 AM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[2].u_iter_pipline : iter_pipline (iter_pipline.v)]", 4, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[3].u_iter_pipline : iter_pipline (iter_pipline.v)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[5].u_iter_pipline : iter_pipline (iter_pipline.v)]", 7, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v), iter[6].u_iter_pipline : iter_pipline (iter_pipline.v)]", 8, true); // B (F, cl) - Node
+selectCodeEditor("com_pipline.v", 239, 263); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,134 MB. GUI used memory: 91 MB. Current time: 6/12/20, 9:20:42 AM CST
+// Elapsed time: 25 seconds
+selectCodeEditor("com_pipline.v", 170, 55); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 313, 178); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 313, 178, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 287, 192); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 287, 192, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 306, 170); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 306, 170, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 272, 169); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 272, 169, false, false, false, false, true); // cl (w, cl) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 3,336 MB. GUI used memory: 91 MB. Current time: 6/12/20, 9:20:57 AM CST
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 3,721 MB (+1364310kb) [17:06:56]
+// HMemoryUtils.trashcanNow. Engine heap size: 3,721 MB. GUI used memory: 91 MB. Current time: 6/12/20, 9:21:16 AM CST
+// Xgd.load filename: /tools/Xilinx/Vivado/2019.1/data/parts/xilinx/virtexuplusHBM/devint/virtexuplusHBM/xcvu37p/xcvu37p.xgd; ZipEntry: xcvu37p_floorplan.xgd elapsed time: 1s
+// Elapsed time: 28 seconds
+selectCodeEditor("com_pipline.v", 387, 113); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 387, 113, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 387, 113); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 337, 127); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 337, 127, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 337, 127); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 336, 175); // cl (w, cl)
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: /tools/Xilinx/Vivado/2019.1/data/parts/xilinx/virtexuplusHBM/devint/virtexuplusHBM/xcvu37p/xcvu37p.xgd; ZipEntry: xcvu37p_detail.xgd elapsed time: 4.8s
+// [GUI Memory]: 275 MB (+66346kb) [17:07:03]
+// [Engine Memory]: 4,300 MB (+412007kb) [17:07:03]
+// [GUI Memory]: 294 MB (+5787kb) [17:07:04]
+// [Engine Memory]: 4,559 MB (+45814kb) [17:07:04]
+// Device: addNotify
+// DeviceView Instantiated
+// [Engine Memory]: 4,817 MB (+31487kb) [17:07:05]
+// WARNING: HEventQueue.dispatchEvent() is taking  3624 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xcvu37p-fsvh2892-2L-e INFO: [Netlist 29-17] Analyzing 9985 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2019.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 9024.035 ; gain = 0.000 ; free physical = 14568 ; free virtual = 20277 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 8193 instances were transformed.   IBUF => IBUF (IBUFCTRL, INBUF): 8193 instances  
+// Device view-level: 0.0
+// [Engine Memory]: 5,108 MB (+52280kb) [17:07:08]
+// WARNING: HEventQueue.dispatchEvent() is taking  1720 ms.
+// ExpRunCommands.openSynthResults elapsed time: 85.2s
+// Tcl Message: open_run: Time (s): cpu = 00:01:32 ; elapsed = 00:01:23 . Memory (MB): peak = 9423.191 ; gain = 2216.996 ; free physical = 14009 ; free virtual = 19718 
+dismissDialog("Open Synthesized Design"); // by (cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Utilization]", 25, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RESOURCE_UTILIZATION
+// a (cl): Report Utilization: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+dismissDialog("Report Utilization"); // a (cl)
+// by (cl):  Report Utilization : addNotify
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 17.5s
+// Device view-level: 0.0
+// Tcl Message: report_utilization -name utilization_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,650 MB. GUI used memory: 223 MB. Current time: 6/12/20, 9:21:38 AM CST
+// TclEventType: UTILIZATION_RESULT_GENERATED
+// [GUI Memory]: 309 MB (+28kb) [17:07:22]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,876 MB. GUI used memory: 249 MB. Current time: 6/12/20, 9:21:45 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1656 ms.
+// Tcl Message: report_utilization: Time (s): cpu = 00:00:28 ; elapsed = 00:00:12 . Memory (MB): peak = 9619.363 ; gain = 189.168 ; free physical = 13636 ; free virtual = 19345 
+// Elapsed time: 12 seconds
+dismissDialog("Report Utilization"); // by (cl)
+// Device view-level: 0.0
+// HMemoryUtils.trashcanNow. Engine heap size: 4,868 MB. GUI used memory: 262 MB. Current time: 6/12/20, 9:21:58 AM CST
+// PAPropertyPanels.initPanels (iter[0].u_iter_pipline (iter_pipline)) elapsed time: 5.3s
+// Elapsed time: 18 seconds
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[0].u_iter_pipline (iter_pipline) ; 12288 ; 8192 ; 256 ; 0 ; 0", 1, "iter[0].u_iter_pipline (iter_pipline)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  5359 ms.
+// PAPropertyPanels.initPanels (iter[1].u_iter_pipline (iter_pipline__parameterized0)) elapsed time: 0.3s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[1].u_iter_pipline (iter_pipline__parameterized0) ; 6144 ; 8192 ; 256 ; 0 ; 0", 2, "iter[1].u_iter_pipline (iter_pipline__parameterized0)", 0, true); // z (O, cl) - Node
+// PAPropertyPanels.initPanels (iter[6].u_iter_pipline (iter_pipline__parameterized5)) elapsed time: 0.3s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[6].u_iter_pipline (iter_pipline__parameterized5) ; 0 ; 8192 ; 256 ; 0 ; 0", 7, "iter[6].u_iter_pipline (iter_pipline__parameterized5)", 0, true); // z (O, cl) - Node
+// Elapsed time: 10 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK (aH, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("com_pipline.v", 298, 208); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 120, 219); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 120, 218, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 202, 216); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 202, 216, false, false, false, false, true); // cl (w, cl) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 5,543 MB. GUI used memory: 251 MB. Current time: 6/12/20, 9:22:23 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 6,131 MB. GUI used memory: 250 MB. Current time: 6/12/20, 9:22:43 AM CST
+// RouteApi::initDelayMediator elapsed time: 82.9s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// [Engine Memory]: 6,123 MB (+796652kb) [17:08:51]
+// Elapsed time: 49 seconds
+expandTreeTable((HResource) null, "iter[0].u_iter_pipline (iter_pipline) ; 12288 ; 8192 ; 256 ; 0 ; 0", 1); // z (O, cl)
+expandTreeTable((HResource) null, "group[0].u_group_pipline (group_pipline) ; 12288 ; 8192 ; 256 ; 0 ; 0", 2); // z (O, cl)
+collapseTreeTable((HResource) null, "group[0].u_group_pipline (group_pipline) ; 12288 ; 8192 ; 256 ; 0 ; 0", 2); // z (O, cl)
+expandTreeTable((HResource) null, "iter[6].u_iter_pipline (iter_pipline__parameterized5) ; 0 ; 8192 ; 256 ; 0 ; 0", 8); // z (O, cl)
+collapseTreeTable((HResource) null, "iter[6].u_iter_pipline (iter_pipline__parameterized5) ; 0 ; 8192 ; 256 ; 0 ; 0", 8); // z (O, cl)
+// PAPropertyPanels.initPanels (iter[2].u_iter_pipline (iter_pipline__parameterized1)) elapsed time: 0.2s
+// Elapsed time: 74 seconds
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[2].u_iter_pipline (iter_pipline__parameterized1) ; 6144 ; 8192 ; 256 ; 0 ; 0", 4, "iter[2].u_iter_pipline (iter_pipline__parameterized1)", 0, true); // z (O, cl) - Node
+// PAPropertyPanels.initPanels (group[0].u_group_pipline (group_pipline)) elapsed time: 0.2s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "group[0].u_group_pipline (group_pipline) ; 12288 ; 8192 ; 256 ; 0 ; 0", 2, "group[0].u_group_pipline (group_pipline)", 0, true); // z (O, cl) - Node
+// PAPropertyPanels.initPanels (iter[0].u_iter_pipline (iter_pipline)) elapsed time: 0.2s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[0].u_iter_pipline (iter_pipline) ; 12288 ; 8192 ; 256 ; 0 ; 0", 1, "iter[0].u_iter_pipline (iter_pipline)", 0, true); // z (O, cl) - Node
+collapseTreeTable((HResource) null, "iter[0].u_iter_pipline (iter_pipline) ; 12288 ; 8192 ; 256 ; 0 ; 0", 1); // z (O, cl)
+// PAPropertyPanels.initPanels (iter[3].u_iter_pipline (iter_pipline__parameterized2)) elapsed time: 0.2s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[3].u_iter_pipline (iter_pipline__parameterized2) ; 6144 ; 8192 ; 256 ; 0 ; 0", 4, "iter[3].u_iter_pipline (iter_pipline__parameterized2)", 0, true); // z (O, cl) - Node
+// PAPropertyPanels.initPanels (iter[5].u_iter_pipline (iter_pipline__parameterized4)) elapsed time: 0.2s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[5].u_iter_pipline (iter_pipline__parameterized4) ; 6144 ; 8192 ; 256 ; 0 ; 0", 6, "iter[5].u_iter_pipline (iter_pipline__parameterized4)", 0, true); // z (O, cl) - Node
+// PAPropertyPanels.initPanels (iter[6].u_iter_pipline (iter_pipline__parameterized5)) elapsed time: 0.2s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[6].u_iter_pipline (iter_pipline__parameterized5) ; 0 ; 8192 ; 256 ; 0 ; 0", 7, "iter[6].u_iter_pipline (iter_pipline__parameterized5)", 0, true); // z (O, cl) - Node
+selectCodeEditor("com_pipline.v", 287, 77); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "com_pipline.v", 2); // k (j, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+selectCodeEditor("com_pipline.v", 368, 185); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 204, 317); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 204, 317, false, false, false, false, true); // cl (w, cl) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+// PAPropertyPanels.initPanels (iter[6].u_iter_pipline (iter_pipline__parameterized5)) elapsed time: 0.2s
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jun 12 09:25:02 2020] Launched synth_1... Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_1/runme.log 
+// [GUI Memory]: 325 MB (+520kb) [17:10:42]
+dismissDialog("Starting Design Runs"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// HMemoryUtils.trashcanNow. Engine heap size: 6,117 MB. GUI used memory: 249 MB. Current time: 6/12/20, 9:25:08 AM CST
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1); // B (F, cl)
+// Elapsed time: 59 seconds
+collapseTree(PAResourceQtoS.ReportUtilTab_REPORT_UTILIZATION_NAVIGATION_TREE, "[Report Contents, CLB Logic]", 2); // l (O, cl)
+collapseTree(PAResourceQtoS.ReportUtilTab_REPORT_UTILIZATION_NAVIGATION_TREE, "[Report Contents, I/O]", 5); // l (O, cl)
+collapseTree(PAResourceQtoS.ReportUtilTab_REPORT_UTILIZATION_NAVIGATION_TREE, "[Report Contents, CLOCK]", 6); // l (O, cl)
+// Elapsed time: 96 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 637, 254); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 478, 228); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 478, 228, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 478, 228); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 488, 191); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 488, 191, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 488, 191); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 396, 208); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 396, 208, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 396, 208); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 329, 245); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 329, 245, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 329, 245); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 459, 186); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 508, 245); // n (q, cl)
+// Elapsed time: 115 seconds
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 281, 166); // n (q, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 393, 208); // n (q, cl)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Utilization", 5); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 387, 167); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 372, 194); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 372, 194, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 372, 194); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 402, 168); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 402, 168, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 402, 168); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 406, 186); // n (q, cl)
+// Elapsed time: 16 seconds
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Utilization", 5); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Utilization", 5); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 451, 175); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 288, 193); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 288, 193, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 288, 193); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 280, 204); // n (q, cl)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("com_pipline.v", 160, 169); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 97, 193); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 97, 193, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 125, 182); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 125, 182, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 191, 184); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 191, 184, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 196, 186); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 197, 186, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 34 seconds
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 424, 42); // n (q, cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 403, 151); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 403, 151, false, false, false, false, true); // n (q, cl) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 403, 151); // n (q, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 399, 210); // n (q, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 6,097 MB. GUI used memory: 252 MB. Current time: 6/12/20, 9:55:08 AM CST
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Synthesis Completed: addNotify
+// Elapsed time: 1959 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Synthesis Completed"); // ah (cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 491520 ; 655360 ; 0.0 ; 0 ; 0 ; Fri Jun 12 09:25:03 CST 2020 ; 00:40:02 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 0, (String) null, 10, true); // ay (O, cl) - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.3s
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Utilization]", 25, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RESOURCE_UTILIZATION
+// a (cl): Report Utilization: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+dismissDialog("Report Utilization"); // a (cl)
+// Tcl Message: report_utilization -name utilization_2 
+// by (cl):  Report Utilization : addNotify
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (by)
+// TclEventType: UTILIZATION_RESULT_GENERATED
+// [GUI Memory]: 342 MB (+362kb) [17:51:35]
+// HMemoryUtils.trashcanNow. Engine heap size: 6,097 MB. GUI used memory: 292 MB. Current time: 6/12/20, 10:05:58 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1451 ms.
+// Tcl Message: report_utilization: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 10874.984 ; gain = 0.000 ; free physical = 13444 ; free virtual = 17902 
+// [Engine Memory]: 6,450 MB (+21491kb) [17:51:39]
+dismissDialog("Report Utilization"); // by (cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Utilization", 5); // aK (aH, cl)
+selectButton(PAResourceOtoP.ProjectTab_CLOSE_DESIGN, "Close Design"); // h (cS, cl)
+// TclEventType: DESIGN_CLOSE
+// [GUI Memory]: 386 MB (+28389kb) [17:51:54]
+// HMemoryUtils.trashcanNow. Engine heap size: 6,056 MB. GUI used memory: 237 MB. Current time: 6/12/20, 10:06:14 AM CST
+// Engine heap size: 6,056 MB. GUI used memory: 238 MB. Current time: 6/12/20, 10:06:14 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1861 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// by (cl):  Closing : addNotify
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (by)
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Closing"); // by (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Utilization]", 24, false); // u (O, cl)
+// by (cl):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xcvu37p-fsvh2892-2L-e 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (by)
+selectCodeEditor("com_pipline.v", 368, 220); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 344, 313); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 340, 327); // cl (w, cl)
+// Elapsed time: 71 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, com_pipline (com_pipline.v)]", 1, true); // B (F, cl) - Node
+selectCodeEditor("com_pipline.v", 207, 165); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 6,077 MB. GUI used memory: 104 MB. Current time: 6/12/20, 10:08:38 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 6,590 MB. GUI used memory: 103 MB. Current time: 6/12/20, 10:09:13 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 6,819 MB. GUI used memory: 103 MB. Current time: 6/12/20, 10:09:28 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 7,105 MB. GUI used memory: 103 MB. Current time: 6/12/20, 10:09:48 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 7,318 MB. GUI used memory: 103 MB. Current time: 6/12/20, 10:10:03 AM CST
+// [Engine Memory]: 7,545 MB (+810236kb) [17:55:59]
+// HMemoryUtils.trashcanNow. Engine heap size: 7,622 MB. GUI used memory: 103 MB. Current time: 6/12/20, 10:10:23 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 7,919 MB. GUI used memory: 103 MB. Current time: 6/12/20, 10:10:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 8,195 MB. GUI used memory: 103 MB. Current time: 6/12/20, 10:10:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 8,428 MB. GUI used memory: 102 MB. Current time: 6/12/20, 10:11:18 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 8,637 MB. GUI used memory: 102 MB. Current time: 6/12/20, 10:11:33 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 8,893 MB. GUI used memory: 102 MB. Current time: 6/12/20, 10:11:53 AM CST
+// [Engine Memory]: 8,942 MB (+1069038kb) [17:57:57]
+// HMemoryUtils.trashcanNow. Engine heap size: 9,027 MB. GUI used memory: 102 MB. Current time: 6/12/20, 10:12:33 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 10,983 MB. GUI used memory: 102 MB. Current time: 6/12/20, 10:12:58 AM CST
+// [Engine Memory]: 11,049 MB (+1740868kb) [17:59:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 11,073 MB. GUI used memory: 102 MB. Current time: 6/12/20, 10:14:59 AM CST
+// TclEventType: FLOORPLAN_MODIFY
+// HMemoryUtils.trashcanNow. Engine heap size: 11,590 MB. GUI used memory: 102 MB. Current time: 6/12/20, 10:15:43 AM CST
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 11,590 MB. GUI used memory: 102 MB. Current time: 6/12/20, 10:15:49 AM CST
+// Xgd.load filename: /tools/Xilinx/Vivado/2019.1/data/parts/xilinx/virtexuplusHBM/devint/virtexuplusHBM/xcvu37p/xcvu37p.xgd; ZipEntry: xcvu37p_floorplan.xgd elapsed time: 0.8s
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 11,817 MB (+225787kb) [18:01:37]
+// Xgd.load filename: /tools/Xilinx/Vivado/2019.1/data/parts/xilinx/virtexuplusHBM/devint/virtexuplusHBM/xcvu37p/xcvu37p.xgd; ZipEntry: xcvu37p_detail.xgd elapsed time: 3.8s
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  3845 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 86017 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 12 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2019.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.40 ; elapsed = 00:00:00.39 . Memory (MB): peak = 16842.816 ; gain = 0.000 ; free physical = 8999 ; free virtual = 13614 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 65537 instances were transformed.   IBUF => IBUF (IBUFCTRL, INBUF): 65537 instances  
+// ExpRunCommands.openSynthResults elapsed time: 581.2s
+// OpenDesignTask elapsed time: 581.2s
+// Tcl Message: open_run: Time (s): cpu = 00:08:57 ; elapsed = 00:09:41 . Memory (MB): peak = 16847.820 ; gain = 5972.836 ; free physical = 8288 ; free virtual = 12898 
+// Run Command: PAResourceCommand.PACommandNames_RESOURCE_UTILIZATION
+// a (cl): Report Utilization: addNotify
+// Elapsed time: 503 seconds
+dismissDialog("Open Synthesized Design"); // by (cl)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// Device view-level: 0.0
+// [Engine Memory]: 12,408 MB (+290kb) [18:01:44]
+// WARNING: HEventQueue.dispatchEvent() is taking  1119 ms.
+dismissDialog("Report Utilization"); // a (cl)
+// Tcl Message: report_utilization -name utilization_1 
+// by (cl):  Report Utilization : addNotify
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (by)
+// HMemoryUtils.trashcanNow. Engine heap size: 12,111 MB. GUI used memory: 249 MB. Current time: 6/12/20, 10:16:09 AM CST
+// RouteApi::initDelayMediator elapsed time: 9.9s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// HMemoryUtils.trashcanNow. Engine heap size: 12,457 MB. GUI used memory: 249 MB. Current time: 6/12/20, 10:16:54 AM CST
+// TclEventType: UTILIZATION_RESULT_GENERATED
+// [GUI Memory]: 406 MB (+358kb) [18:02:48]
+// [GUI Memory]: 427 MB (+703kb) [18:02:48]
+// [Engine Memory]: 13,441 MB (+432415kb) [18:02:48]
+// [GUI Memory]: 448 MB (+154kb) [18:02:49]
+// [GUI Memory]: 471 MB (+484kb) [18:02:50]
+// [GUI Memory]: 495 MB (+464kb) [18:02:50]
+// [Engine Memory]: 14,285 MB (+180494kb) [18:02:50]
+// [GUI Memory]: 521 MB (+871kb) [18:02:51]
+// [GUI Memory]: 548 MB (+1517kb) [18:02:52]
+// [GUI Memory]: 576 MB (+1018kb) [18:02:53]
+// HMemoryUtils.trashcanNow. Engine heap size: 13,212 MB. GUI used memory: 370 MB. Current time: 6/12/20, 10:17:14 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1061 ms.
+// [GUI Memory]: 605 MB (+17kb) [18:03:13]
+// [GUI Memory]: 636 MB (+748kb) [18:03:13]
+// [GUI Memory]: 669 MB (+693kb) [18:03:13]
+// [GUI Memory]: 702 MB (+36kb) [18:03:14]
+// HMemoryUtils.trashcanNow. Engine heap size: 13,623 MB. GUI used memory: 452 MB. Current time: 6/12/20, 10:17:36 AM CST
+// WARNING: updateGUI() is taking  1436 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2273 ms.
+// Tcl Message: report_utilization: Time (s): cpu = 00:03:28 ; elapsed = 00:01:33 . Memory (MB): peak = 17669.832 ; gain = 822.012 ; free physical = 6665 ; free virtual = 11279 
+// Elapsed time: 90 seconds
+dismissDialog("Report Utilization"); // by (cl)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 130.4s
+// Device view-level: 0.0
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1279 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 13,663 MB. GUI used memory: 446 MB. Current time: 6/12/20, 10:47:39 AM CST
+// Device view-level: 0.0
+// Device view-level: 0.0
+// HMemoryUtils.trashcanNow. Engine heap size: 13,663 MB. GUI used memory: 446 MB. Current time: 6/12/20, 10:54:12 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1183 ms.
+// Elapsed time: 2293 seconds
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "com_pipline ; 491520 ; 655360 ; 20480 ; 131073 ; 1", 0, "491520", 1, true); // z (O, cl) - Node
+// PAPropertyPanels.initPanels (iter[0].u_iter_pipline (iter_pipline)) elapsed time: 5.5s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[0].u_iter_pipline (iter_pipline) ; 98304 ; 65536 ; 2048 ; 0 ; 0", 1, "98304", 1, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  5576 ms.
+// Device view-level: 0.1
+// Device view-level: 0.1
+// PAPropertyPanels.initPanels (iter[9].u_iter_pipline (iter_pipline__parameterized8)) elapsed time: 1.2s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[9].u_iter_pipline (iter_pipline__parameterized8) ; 0 ; 65536 ; 2048 ; 0 ; 0", 10, "iter[9].u_iter_pipline (iter_pipline__parameterized8)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1274 ms.
+// PAPropertyPanels.initPanels (iter[0].u_iter_pipline (iter_pipline)) elapsed time: 0.9s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[0].u_iter_pipline (iter_pipline) ; 98304 ; 65536 ; 2048 ; 0 ; 0", 1, "65536", 2, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "com_pipline ; 491520 ; 655360 ; 20480 ; 131073 ; 1", 0, "491520", 1, true); // z (O, cl) - Node
+// PAPropertyPanels.initPanels (iter[0].u_iter_pipline (iter_pipline)) elapsed time: 1s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[0].u_iter_pipline (iter_pipline) ; 98304 ; 65536 ; 2048 ; 0 ; 0", 1, "iter[0].u_iter_pipline (iter_pipline)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1035 ms.
+// PAPropertyPanels.initPanels (iter[1].u_iter_pipline (iter_pipline__parameterized0)) elapsed time: 1.4s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[1].u_iter_pipline (iter_pipline__parameterized0) ; 49152 ; 65536 ; 2048 ; 0 ; 0", 2, "iter[1].u_iter_pipline (iter_pipline__parameterized0)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1456 ms.
+// [GUI Memory]: 776 MB (+40542kb) [18:41:55]
+// PAPropertyPanels.initPanels (iter[2].u_iter_pipline (iter_pipline__parameterized1)) elapsed time: 1.5s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[2].u_iter_pipline (iter_pipline__parameterized1) ; 49152 ; 65536 ; 2048 ; 0 ; 0", 3, "iter[2].u_iter_pipline (iter_pipline__parameterized1)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1526 ms.
+// [GUI Memory]: 821 MB (+6181kb) [18:41:58]
+// PAPropertyPanels.initPanels (iter[1].u_iter_pipline (iter_pipline__parameterized0)) elapsed time: 1.4s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[1].u_iter_pipline (iter_pipline__parameterized0) ; 49152 ; 65536 ; 2048 ; 0 ; 0", 2, "iter[1].u_iter_pipline (iter_pipline__parameterized0)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1458 ms.
+// [GUI Memory]: 862 MB (+460kb) [18:42:02]
+// PAPropertyPanels.initPanels (iter[0].u_iter_pipline (iter_pipline)) elapsed time: 0.9s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[0].u_iter_pipline (iter_pipline) ; 98304 ; 65536 ; 2048 ; 0 ; 0", 1, "iter[0].u_iter_pipline (iter_pipline)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// PAPropertyPanels.initPanels (iter[1].u_iter_pipline (iter_pipline__parameterized0)) elapsed time: 1.2s
+// Elapsed time: 14 seconds
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[1].u_iter_pipline (iter_pipline__parameterized0) ; 49152 ; 65536 ; 2048 ; 0 ; 0", 2, "iter[1].u_iter_pipline (iter_pipline__parameterized0)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1332 ms.
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "com_pipline ; 491520 ; 655360 ; 20480 ; 131073 ; 1", 0, "com_pipline", 0, true); // z (O, cl) - Node
+// [GUI Memory]: 907 MB (+1432kb) [18:42:24]
+// [GUI Memory]: 952 MB (+132kb) [18:42:25]
+// PAPropertyPanels.initPanels (iter[0].u_iter_pipline (iter_pipline)) elapsed time: 0.9s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[0].u_iter_pipline (iter_pipline) ; 98304 ; 65536 ; 2048 ; 0 ; 0", 1, "iter[0].u_iter_pipline (iter_pipline)", 0, true); // z (O, cl) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[0].u_iter_pipline (iter_pipline) ; 98304 ; 65536 ; 2048 ; 0 ; 0", 1, "iter[0].u_iter_pipline (iter_pipline)", 0, true); // z (O, cl) - Node
+// [GUI Memory]: 1,000 MB (+375kb) [18:42:27]
+// PAPropertyPanels.initPanels (iter[1].u_iter_pipline (iter_pipline__parameterized0)) elapsed time: 1.3s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[1].u_iter_pipline (iter_pipline__parameterized0) ; 49152 ; 65536 ; 2048 ; 0 ; 0", 2, "iter[1].u_iter_pipline (iter_pipline__parameterized0)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1352 ms.
+collapseTreeTable((HResource) null, "com_pipline ; 491520 ; 655360 ; 20480 ; 131073 ; 1", 0); // z (O, cl)
+expandTreeTable((HResource) null, "com_pipline ; 491520 ; 655360 ; 20480 ; 131073 ; 1", 0); // z (O, cl)
+// PAPropertyPanels.initPanels (iter[0].u_iter_pipline (iter_pipline)) elapsed time: 0.9s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[0].u_iter_pipline (iter_pipline) ; 98304 ; 65536 ; 2048 ; 0 ; 0", 1, "iter[0].u_iter_pipline (iter_pipline)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+// Device view-level: 0.1
+// Device view-level: 0.2
+// [GUI Memory]: 1,051 MB (+174kb) [18:44:08]
+// Device view-level: 0.2
+// HMemoryUtils.trashcanNow. Engine heap size: 14,583 MB. GUI used memory: 1,033 MB. Current time: 6/12/20, 10:58:28 AM CST
+// Device view-level: 0.2
+// Device view-level: 0.2
+// Elapsed time: 100 seconds
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[0].u_iter_pipline (iter_pipline) ; 98304 ; 65536 ; 2048 ; 0 ; 0", 1, "iter[0].u_iter_pipline (iter_pipline)", 0, true); // z (O, cl) - Node
+collapseTreeTable((HResource) null, "com_pipline ; 491520 ; 655360 ; 20480 ; 131073 ; 1", 0); // z (O, cl)
+expandTreeTable((HResource) null, "com_pipline ; 491520 ; 655360 ; 20480 ; 131073 ; 1", 0); // z (O, cl)
+// [GUI Memory]: 1,113 MB (+10223kb) [18:44:14]
+// PAPropertyPanels.initPanels (iter[1].u_iter_pipline (iter_pipline__parameterized0)) elapsed time: 1.3s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[1].u_iter_pipline (iter_pipline__parameterized0) ; 49152 ; 65536 ; 2048 ; 0 ; 0", 2, "iter[1].u_iter_pipline (iter_pipline__parameterized0)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1356 ms.
+// PAPropertyPanels.initPanels (iter[3].u_iter_pipline (iter_pipline__parameterized2)) elapsed time: 1.4s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[3].u_iter_pipline (iter_pipline__parameterized2) ; 49152 ; 65536 ; 2048 ; 0 ; 0", 4, "iter[3].u_iter_pipline (iter_pipline__parameterized2)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1570 ms.
+// PAPropertyPanels.initPanels (iter[4].u_iter_pipline (iter_pipline__parameterized3)) elapsed time: 1.4s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[4].u_iter_pipline (iter_pipline__parameterized3) ; 49152 ; 65536 ; 2048 ; 0 ; 0", 5, "iter[4].u_iter_pipline (iter_pipline__parameterized3)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1466 ms.
+// PAPropertyPanels.initPanels (iter[7].u_iter_pipline (iter_pipline__parameterized6)) elapsed time: 1.3s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[7].u_iter_pipline (iter_pipline__parameterized6) ; 49152 ; 65536 ; 2048 ; 0 ; 0", 8, "iter[7].u_iter_pipline (iter_pipline__parameterized6)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1412 ms.
+// PAPropertyPanels.initPanels (iter[8].u_iter_pipline (iter_pipline__parameterized7)) elapsed time: 1.4s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[8].u_iter_pipline (iter_pipline__parameterized7) ; 49152 ; 65536 ; 2048 ; 0 ; 0", 9, "iter[8].u_iter_pipline (iter_pipline__parameterized7)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1455 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 13,762 MB. GUI used memory: 473 MB. Current time: 6/12/20, 10:58:45 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1310 ms.
+// PAPropertyPanels.initPanels (iter[9].u_iter_pipline (iter_pipline__parameterized8)) elapsed time: 1.2s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "iter[9].u_iter_pipline (iter_pipline__parameterized8) ; 0 ; 65536 ; 2048 ; 0 ; 0", 10, "iter[9].u_iter_pipline (iter_pipline__parameterized8)", 0, true); // z (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1248 ms.
+collapseTreeTable((HResource) null, "com_pipline ; 491520 ; 655360 ; 20480 ; 131073 ; 1", 0); // z (O, cl)
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "com_pipline ; 491520 ; 655360 ; 20480 ; 131073 ; 1", 0, "com_pipline", 0, true); // z (O, cl) - Node
+expandTreeTable((HResource) null, "com_pipline ; 491520 ; 655360 ; 20480 ; 131073 ; 1", 0); // z (O, cl)
+expandTreeTable((HResource) null, "iter[0].u_iter_pipline (iter_pipline) ; 98304 ; 65536 ; 2048 ; 0 ; 0", 1); // z (O, cl)
+expandTreeTable((HResource) null, "group[0].u_group_pipline (group_pipline) ; 98304 ; 65536 ; 2048 ; 0 ; 0", 2); // z (O, cl)
+// Elapsed time: 15 seconds
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "step[255].u_com_logic_reg (com_logic_reg_19614) ; 288 ; 128 ; 4 ; 0 ; 0", 258, "step[255].u_com_logic_reg (com_logic_reg_19614)", 0, true); // z (O, cl) - Node
+expandTreeTable((HResource) null, "step[255].u_com_logic_reg (com_logic_reg_19614) ; 288 ; 128 ; 4 ; 0 ; 0", 258); // z (O, cl)
+expandTreeTable((HResource) null, "step[256].u_com_logic_reg (com_logic_reg_19615) ; 96 ; 128 ; 4 ; 0 ; 0", 262); // z (O, cl)
+collapseTreeTable((HResource) null, "step[256].u_com_logic_reg (com_logic_reg_19615) ; 96 ; 128 ; 4 ; 0 ; 0", 262); // z (O, cl)
+collapseTreeTable((HResource) null, "step[255].u_com_logic_reg (com_logic_reg_19614) ; 288 ; 128 ; 4 ; 0 ; 0", 258); // z (O, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // k (j, cl)
+// Device view-level: 0.0
+// HMemoryUtils.trashcanNow. Engine heap size: 13,690 MB. GUI used memory: 452 MB. Current time: 6/12/20, 10:59:50 AM CST
+// WARNING: updateGUI() is taking  1175 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1176 ms.
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "com_pipline.v", 2); // k (j, cl)
+selectCodeEditor("com_pipline.v", 197, 185); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 197, 185, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 274, 197); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 201, 184); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 201, 184, false, false, false, false, true); // cl (w, cl) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("com_pipline.v", 254, 216); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 200, 212); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 200, 212, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 191, 237); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 191, 237, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("com_pipline.v", 220, 247); // cl (w, cl)
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "step[48].u_com_logic_reg (com_logic_reg_19874) ; 288 ; 128 ; 4 ; 0 ; 0", 51, "step[48].u_com_logic_reg (com_logic_reg_19874)", 0, true); // z (O, cl) - Node
+selectCodeEditor("com_pipline.v", 270, 246); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 241, 229); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 241, 216); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 234, 187); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 237, 217); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 232, 237); // cl (w, cl)
+selectCodeEditor("com_pipline.v", 217, 231); // cl (w, cl)
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[com_pipline, iter[0].u_iter_pipline (iter_pipline)]", 3); // bd (O, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (f)
+dismissDialog("Launch Runs"); // f (cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // ay (O, cl) - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.2s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 0, "synth_1", 0, true, false, false, false, true, false); // ay (O, cl) - Popup Trigger - Node
+selectButton(PAResourceCommand.PACommandNames_DESIGN_AHEAD, "Design Runs_design_ahead"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_DESIGN_AHEAD
+// G (cl): Create New Runs: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, G)
+selectButton("NEXT", "Next >"); // JButton (j, G)
+selectButton("NEXT", "Next >"); // JButton (j, G)
+// TclEventType: RUN_ADD
+// G (cl): Create New Runs: addNotify
+// by (G):  Starting Design Runs : addNotify
+// Tcl Message: create_run synth_2 -flow {Vivado Synthesis 2019} 
+// Tcl Message: Run is defaulting to srcset: sources_1 Run is defaulting to constrset: constrs_1 Run is defaulting to part: xcvu37p-fsvh2892-2L-e 
+dismissDialog("Create New Runs"); // G (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_2 -jobs 4 
+// Tcl Message: [Fri Jun 12 11:00:29 2020] Launched synth_2... Run output will be captured here: /home/hao/wrk/my_verilog/my_compare/prj/my_com/my_com.runs/synth_2/runme.log 
+selectButton("FINISH", "Finish"); // JButton (j, G)
+// 'f' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // by (G)
+// TclEventType: RUN_STATUS_CHANGE
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "Running synth_design...", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 0, "Not started", 2, true); // ay (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "Running synth_design...", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 0, "Not started", 2, true); // ay (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:00:18 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "Running synth_design...", 2, false); // ay (O, cl)
+// Elapsed time: 22 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 0, "Not started", 2, true); // ay (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:00:31 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "Running synth_design...", 2, false); // ay (O, cl)
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 0, "Not started", 2, true); // ay (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:00:51 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "Running synth_design...", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 0, "Not started", 2, true); // ay (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:00:51 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "Running synth_design...", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 0, "Not started", 2, true); // ay (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:00:51 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "Running synth_design...", 2, false); // ay (O, cl)
+// Elapsed time: 23 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:01:18 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "Running synth_design...", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 0, "Not started", 2, true); // ay (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:01:18 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "Running synth_design...", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 0, "Not started", 2, true); // ay (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:01:18 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "Running synth_design...", 2, false); // ay (O, cl)
+// Elapsed time: 37 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:01:33 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "Running synth_design...", 2, false); // ay (O, cl)
+// PAPropertyPanels.initPanels (synth_2) elapsed time: 0.2s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 0, "Not started", 2, true); // ay (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:01:33 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "Running synth_design...", 2, false); // ay (O, cl)
+// PAPropertyPanels.initPanels (synth_2) elapsed time: 0.2s
+// Elapsed time: 31 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Default settings for Implementation.", 1, "Not started", 2, false); // ay (O, cl)
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.3s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ;  ; Vivado Synthesis Defaults", 0, "Not started", 2, true); // ay (O, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1567 ms.
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:02:30 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "Running synth_design...", 2, false); // ay (O, cl)
+// PAPropertyPanels.initPanels (synth_2) elapsed time: 0.2s
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+// Elapsed time: 24 seconds
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1157ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5300 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4190 ms. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4128 ms. Increasing delay to 12384 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1464 ms. Decreasing delay to 3464 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 448ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2183 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 237ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4279 ms.
+// Elapsed time: 131 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  3442 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4388 ms.
+// Elapsed time: 183 seconds
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Utilization", 5); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  1898 ms.
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:07:35 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "synth_2", 0, false, false, false, false, true, false); // ay (O, cl) - Popup Trigger
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Fri Jun 12 11:00:31 CST 2020 ; 00:07:35 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xcvu37p-fsvh2892-2L-e ; hao-Lenovo-Rescuer-15ISK ; Vivado Synthesis Defaults", 2, "synth_2", 0, false, false, false, false, true, false); // ay (O, cl) - Popup Trigger
+selectMenuItem(PAResourceEtoH.ExpRunMenu_MAKE_ACTIVE, "Make Active"); // ah (an, Popup.HeavyWeightWindow)
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// WARNING: HEventQueue.dispatchEvent() is taking  5378 ms.
+// Tcl Message: current_run [get_runs synth_2] 
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 275, 228); // n (q, cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  4711 ms.

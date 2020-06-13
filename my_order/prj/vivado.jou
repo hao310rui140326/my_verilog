@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jun 11 16:14:11 2020
+# Process ID: 29454
+# Current directory: /home/hao/wrk/my_verilog/my_compare/prj
+# Command line: vivado
+# Log file: /home/hao/wrk/my_verilog/my_compare/prj/vivado.log
+# Journal file: /home/hao/wrk/my_verilog/my_compare/prj/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project my_com /home/hao/wrk/my_verilog/my_compare/prj/my_com -part xcvu37p-fsvh2892-2L-e
+set_property board_part inspur.com:f37x:part0:1.2 [current_project]
+add_files -norecurse {/home/hao/wrk/my_verilog/my_compare/rtl/com_logic_reg.v /home/hao/wrk/my_verilog/my_compare/rtl/group_pipline.v /home/hao/wrk/my_verilog/my_compare/rtl/reg_delay.v /home/hao/wrk/my_verilog/my_compare/rtl/com_pipline.v /home/hao/wrk/my_verilog/my_compare/rtl/iter_pipline.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+add_files -norecurse /home/hao/wrk/my_verilog/my_compare/rtl/com_logic.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+report_utilization -name utilization_2
+close_design
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+reset_run synth_1
+create_run synth_2 -flow {Vivado Synthesis 2019}
+launch_runs synth_2 -jobs 4
+wait_on_run synth_2
+current_run [get_runs synth_2]
