@@ -1,0 +1,55 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+viewport = 120 36 1655 953 539 666 61 898
+activeNode = "order_25D_switch.genblk1[0].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst0"
+activeScope = "order_25D_switch.genblk1[0].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst0"
+activeFile = "/home/hao/wrk/my_verilog/sort-master/order_1_4.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 64
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "order_25D_switch.genblk1[0].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst0"
+Scope2 = "order_25D_switch.genblk1[0].order_25D_comodel_inst.order_25D_model_1_inst.order_1_3_inst5"
+Scope3 = "order_25D_switch.genblk1[0].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst3"
+Scope4 = "order_25D_switch.genblk1[0].order_25D_comodel_inst.order_25D_model_0_inst"
+Scope5 = "order_25D_switch.genblk1[0].order_25D_comodel_inst.order_25D_model_1_inst"
+Scope6 = "order_25D_switch.genblk1[0].order_25D_comodel_inst"
+Scope7 = "order_25D_switch.genblk1[0]"
+Scope8 = "order_25D_switch"
+Scope9 = "order_25D_switch.genblk1[5]"
+Scope10 = "order_25D_switch.genblk1[5].order_25D_comodel_inst.order_25D_model_1_inst"
+multipleSelection = 1 46 13 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = order_25D_switch.genblk1[0].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst0
+File = /home/hao/wrk/my_verilog/sort-master/order_1_4.v
+Line = 65
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/hao/wrk/my_verilog/sort-master
+design = DebussyLib
+hostCommand = hostCommand /home/hao/wrk/my_verilog/sort-master/order_1_3.v /home/hao/wrk/my_verilog/sort-master/order_1_4.v /home/hao/wrk/my_verilog/sort-master/order_25D_comodel.v /home/hao/wrk/my_verilog/sort-master/order_25D_model_0.v /home/hao/wrk/my_verilog/sort-ma\
+ster/order_25D_model_1.v /home/hao/wrk/my_verilog/sort-master/order_25D_switch.v

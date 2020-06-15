@@ -1,0 +1,9 @@
++incdir+./
+../rtl/order_1_3.v  
+../rtl/order_25D_comodel.v  
+../rtl/order_25D_model_1.v
+../rtl/order_1_4.v  
+../rtl/order_25D_model_0.v  
+../rtl/order_25D_switch.v
+../rtl/cross_clk_sync.v
+tb.sv

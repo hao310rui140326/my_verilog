@@ -1,0 +1,575 @@
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiDockWidgetHide -dock widgetDock_WelcomePage
+debImport "/home/hao/wrk/my_verilog/sort-master/order_1_3.v" \
+          "/home/hao/wrk/my_verilog/sort-master/order_1_4.v" \
+          "/home/hao/wrk/my_verilog/sort-master/order_25D_comodel.v" \
+          "/home/hao/wrk/my_verilog/sort-master/order_25D_model_0.v" \
+          "/home/hao/wrk/my_verilog/sort-master/order_25D_model_1.v" \
+          "/home/hao/wrk/my_verilog/sort-master/order_25D_switch.v" -path \
+          {/home/hao/wrk/my_verilog/sort-master}
+verdiWindowResize -win $_Verdi_1 "174" "177" "904" "699"
+verdiWindowResize -win $_Verdi_1 "174" "177" "915" "703"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1011" "724"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1143" "760"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1281" "815"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1293" "824"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1308" "838"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1316" "848"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1356" "848"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1368" "848"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1382" "848"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1386" "848"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1389" "848"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1390" "848"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1391" "848"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1392" "848"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1392" "847"
+verdiWindowResize -win $_Verdi_1 "174" "177" "1392" "846"
+nsMsgSelect -range {0 0-0}
+nsMsgAction -tab cmpl -index {0 0}
+nsMsgSelect -range {0 0-0}
+nsMsgSelect -range {0 1-1}
+nsMsgAction -tab cmpl -index {0 1}
+nsMsgSelect -range {0 1-1}
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcSetScope -win $_nTrace1 "order_25D_switch" -delim "."
+srcHBSelect "order_25D_switch.genblk1\[5\]" -win $_nTrace1
+srcSetScope -win $_nTrace1 "order_25D_switch.genblk1\[5\]" -delim "."
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcSetScope -win $_nTrace1 "order_25D_switch" -delim "."
+verdiWindowResize -win $_Verdi_1 "174" "178" "1392" "845"
+verdiWindowResize -win $_Verdi_1 "174" "185" "1392" "838"
+verdiWindowResize -win $_Verdi_1 "174" "209" "1392" "814"
+verdiWindowResize -win $_Verdi_1 "174" "239" "1392" "784"
+verdiWindowResize -win $_Verdi_1 "174" "301" "1392" "722"
+verdiWindowResize -win $_Verdi_1 "174" "375" "1392" "648"
+verdiWindowResize -win $_Verdi_1 "174" "407" "1392" "616"
+verdiWindowResize -win $_Verdi_1 "174" "479" "1392" "544"
+verdiWindowResize -win $_Verdi_1 "174" "511" "1392" "512"
+verdiWindowResize -win $_Verdi_1 "174" "544" "1392" "479"
+verdiWindowResize -win $_Verdi_1 "174" "558" "1392" "465"
+verdiWindowResize -win $_Verdi_1 "174" "578" "1392" "445"
+verdiWindowResize -win $_Verdi_1 "174" "587" "1392" "436"
+verdiWindowResize -win $_Verdi_1 "174" "597" "1392" "426"
+verdiWindowResize -win $_Verdi_1 "174" "598" "1392" "425"
+verdiWindowResize -win $_Verdi_1 "174" "597" "1392" "426"
+verdiWindowResize -win $_Verdi_1 "174" "584" "1392" "439"
+verdiWindowResize -win $_Verdi_1 "174" "487" "1392" "536"
+verdiWindowResize -win $_Verdi_1 "174" "399" "1392" "624"
+verdiWindowResize -win $_Verdi_1 "174" "295" "1392" "728"
+verdiWindowResize -win $_Verdi_1 "174" "227" "1392" "796"
+verdiWindowResize -win $_Verdi_1 "174" "209" "1392" "814"
+verdiWindowResize -win $_Verdi_1 "174" "197" "1392" "826"
+verdiWindowResize -win $_Verdi_1 "174" "196" "1392" "827"
+verdiWindowResize -win $_Verdi_1 "174" "195" "1392" "828"
+verdiWindowResize -win $_Verdi_1 "174" "194" "1392" "829"
+verdiWindowResize -win $_Verdi_1 "174" "193" "1392" "830"
+verdiDockWidgetSetCurTab -dock widgetDock_<Decl._Tree>
+srcTBBTreeSelect -win $_nTrace1 -path "order_1_3"
+srcTBBTreeSelect -win $_nTrace1 -path "order_1_3"
+srcTBTreeAction -win $_nTrace1 -path "order_1_3"
+srcTBBTreeSelect -win $_nTrace1 -path "order_1_4"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1393" "830"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1417" "855"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1454" "883"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1518" "926"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1606" "984"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1654" "993"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1659" "993"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1660" "992"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1661" "991"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1661" "987"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1660" "979"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1658" "976"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1656" "968"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1655" "964"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1655" "963"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1655" "959"
+verdiWindowResize -win $_Verdi_1 "120" "36" "1655" "953"
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata0" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata1" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata2" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "outdata0" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "outdata1" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "outdata2" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata0" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata1" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata2" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcTBBTreeSelect -win $_nTrace1 -path "order_1_3"
+srcTBBTreeSelect -win $_nTrace1 -path "order_1_3"
+srcTBTreeAction -win $_nTrace1 -path "order_1_3"
+srcTBBTreeSelect -win $_nTrace1 -path "order_1_4"
+srcTBBTreeSelect -win $_nTrace1 -path "order_1_4"
+srcTBTreeAction -win $_nTrace1 -path "order_1_4"
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "cmp" -win $_nTrace1
+srcAction -pos 71 3 1 -win $_nTrace1 -name "cmp" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "cmp_0_1" -win $_nTrace1
+srcAction -pos 48 10 4 -win $_nTrace1 -name "cmp_0_1" -ctrlKey off
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_1_inst" \
+           -win $_nTrace1
+srcHBSelect "order_25D_switch.genblk1\[0\].order_25D_comodel_inst" -win $_nTrace1
+srcHBSelect "order_25D_switch.genblk1\[0\]" -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcSetScope -win $_nTrace1 "order_25D_switch" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {25 50 11 1 8 1}
+srcDeselectAll -win $_nTrace1
+srcHBSelect "order_25D_switch.genblk1\[0\]" -win $_nTrace1
+srcSetScope -win $_nTrace1 "order_25D_switch.genblk1\[0\]" -delim "."
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "imd00\[II*DSIZE+:DSIZE\]" -win $_nTrace1
+srcAction -pos 114 5 2 -win $_nTrace1 -name "imd00\[II*DSIZE+:DSIZE\]" -ctrlKey \
+          off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcHBSelect "order_25D_switch.genblk1\[0\]" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "omd00\[II*DSIZE+:DSIZE\]" -win $_nTrace1
+srcAction -pos 114 15 1 -win $_nTrace1 -name "omd00\[II*DSIZE+:DSIZE\]" -ctrlKey \
+          off
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "imd00\[II*DSIZE+:DSIZE\]" -win $_nTrace1
+srcAction -pos 114 5 2 -win $_nTrace1 -name "imd00\[II*DSIZE+:DSIZE\]" -ctrlKey \
+          off
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id00" -win $_nTrace1
+srcAction -pos 172 7 2 -win $_nTrace1 -name "id00" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id00" -win $_nTrace1
+srcAction -pos 172 7 1 -win $_nTrace1 -name "id00" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcHBSelect "order_25D_switch.genblk1\[0\]" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "TIMES_2" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "II" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "imd00\[II*DSIZE+:DSIZE\]" -win $_nTrace1
+srcAction -pos 114 5 2 -win $_nTrace1 -name "imd00\[II*DSIZE+:DSIZE\]" -ctrlKey \
+          off
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "imd00\[0*DSIZE+:DSIZE\]" -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcHBSelect "order_25D_switch.genblk1\[0\]" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "TIMES_2" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -inst "order_25D_comodel_inst" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -inst "order_25D_comodel_inst" -win $_nTrace1
+srcAction -pos 112 1 18 -win $_nTrace1 -name "order_25D_comodel_inst" -ctrlKey \
+          off
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -delim "."
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_1_inst" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_1_inst" \
+           -delim "."
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_1_inst" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_1_inst" \
+           -delim "."
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -delim "."
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.latency" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.latency" \
+           -delim "."
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id24" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "od24" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id24" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "od24" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clock" -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "od00" -win $_nTrace1
+srcAction -pos 88 5 3 -win $_nTrace1 -name "od00" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst0" \
+           -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {151 168 1 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {155 169 1 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id20" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id21" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id22" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id23" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "od21" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "od20" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "od21" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "od22" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "od23" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {155 168 1 3 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_1_inst" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_1_inst" \
+           -delim "."
+srcHBSelect "order_25D_switch.genblk1\[0\].order_25D_comodel_inst" -win $_nTrace1
+srcHBSelect "order_25D_switch.genblk1\[0\]" -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcSetScope -win $_nTrace1 "order_25D_switch" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "II" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "imd00\[\(II+1\)*DSIZE+:DSIZE\]" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "II" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "TIMES_2" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "II" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 141 -pos 2 -win $_nTrace1
+srcAction -pos 141 2 0 -win $_nTrace1 -name "II" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "II" -win $_nTrace1
+srcHBSelect "order_25D_switch.genblk1\[5\].order_25D_comodel_inst" -win $_nTrace1
+srcSetScope -win $_nTrace1 "order_25D_switch.genblk1\[5\].order_25D_comodel_inst" \
+           -delim "."
+srcHBSelect \
+           "order_25D_switch.genblk1\[5\].order_25D_comodel_inst.order_25D_model_1_inst" \
+           -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[5\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[5\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 19 -pos 2 -win $_nTrace1
+srcAction -pos 19 2 14 -win $_nTrace1 -name "order_25D_model_0" -ctrlKey off
+srcHBSelect \
+           "order_25D_switch.genblk1\[5\].order_25D_comodel_inst.order_25D_model_1_inst" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[5\].order_25D_comodel_inst.order_25D_model_1_inst" \
+           -delim "."
+srcHBSelect \
+           "order_25D_switch.genblk1\[5\].order_25D_comodel_inst.order_25D_model_1_inst.order_1_3_inst5" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[5\].order_25D_comodel_inst.order_25D_model_1_inst.order_1_3_inst5" \
+           -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 19 -pos 2 -win $_nTrace1
+srcAction -pos 19 2 7 -win $_nTrace1 -name "order_1_3" -ctrlKey off
+srcHBSelect "order_25D_switch.genblk1\[5\]" -win $_nTrace1
+srcHBSelect "order_25D_switch.genblk1\[0\]" -win $_nTrace1
+srcHBSelect "order_25D_switch.genblk1\[5\]" -win $_nTrace1
+srcHBSelect "order_25D_switch.genblk1\[5\]" -win $_nTrace1
+srcSetScope -win $_nTrace1 "order_25D_switch.genblk1\[5\]" -delim "."
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "omd24\[\(TIMES_2-1\)*DSIZE+:DSIZE\]" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "TIMES_2" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DSIZE" -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcSetScope -win $_nTrace1 "order_25D_switch" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "od24" -win $_nTrace1
+srcAction -pos 74 11 2 -win $_nTrace1 -name "od24" -ctrlKey off
+srcHBSelect "order_25D_switch" -win $_nTrace1
+srcSetScope -win $_nTrace1 "order_25D_switch" -delim "."
+srcHBSelect "order_25D_switch.genblk1\[0\]" -win $_nTrace1
+srcSetScope -win $_nTrace1 "order_25D_switch.genblk1\[0\]" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "TIMES_2" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "TIMES_2" -win $_nTrace1
+srcHBSelect "order_25D_switch.genblk1\[0\].order_25D_comodel_inst" -win $_nTrace1
+srcSetScope -win $_nTrace1 "order_25D_switch.genblk1\[0\].order_25D_comodel_inst" \
+           -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -inst "order_25D_model_1_inst" -win $_nTrace1
+srcAction -pos 138 1 14 -win $_nTrace1 -name "order_25D_model_1_inst" -ctrlKey \
+          off
+srcDeselectAll -win $_nTrace1
+srcSelect -inst "latency" -win $_nTrace1
+srcAction -pos 170 1 3 -win $_nTrace1 -name "latency" -ctrlKey off
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -delim "."
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -delim "."
+srcDeselectAll -win $_nTrace1
+srcAction -pos 169 0 10 -win $_nTrace1 -name "cross_clk_sync" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -inst "latency" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clock" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id24" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "od24" -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_1_inst" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_1_inst" \
+           -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id01" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id01" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "od01" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id01" -win $_nTrace1
+srcAction -pos 173 4 1 -win $_nTrace1 -name "id01" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst0" \
+           -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_1_inst" \
+           -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id01" -win $_nTrace1
+srcAction -pos 173 4 3 -win $_nTrace1 -name "id01" -ctrlKey off
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst0" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst0" \
+           -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 19 -pos 2 -win $_nTrace1
+srcAction -pos 19 2 5 -win $_nTrace1 -name "order_1_4" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -inst "order_1_4_inst0" -win $_nTrace1
+srcAction -pos 81 1 9 -win $_nTrace1 -name "order_1_4_inst0" -ctrlKey off
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst3" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst3" \
+           -delim "."
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_1_inst.order_1_3_inst5" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_1_inst.order_1_3_inst5" \
+           -delim "."
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst" \
+           -delim "."
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst0" \
+           -win $_nTrace1
+srcSetScope -win $_nTrace1 \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst0" \
+           -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata1" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata1" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata1" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata2" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata3" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata2" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata3" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata3" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata1" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata2" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata2" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata3" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata2" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata3" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "indata3" -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst1" \
+           -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst0" \
+           -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst1" \
+           -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst2" \
+           -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst3" \
+           -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst4" \
+           -win $_nTrace1
+srcHBSelect \
+           "order_25D_switch.genblk1\[0\].order_25D_comodel_inst.order_25D_model_0_inst.order_1_4_inst5" \
+           -win $_nTrace1
+debExit

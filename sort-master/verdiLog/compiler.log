@@ -1,0 +1,458 @@
+*design* DebussyLib (btIdent Verdi3_L-2016.06-1)
+Command arguments:
+    +define+verilog
+    /home/hao/wrk/my_verilog/sort-master/order_1_3.v
+    /home/hao/wrk/my_verilog/sort-master/order_1_4.v
+    /home/hao/wrk/my_verilog/sort-master/order_1_4_tb.sv
+    /home/hao/wrk/my_verilog/sort-master/order_25D_comodel.v
+    /home/hao/wrk/my_verilog/sort-master/order_25D_model_0.v
+    /home/hao/wrk/my_verilog/sort-master/order_25D_model_1.v
+    /home/hao/wrk/my_verilog/sort-master/order_25D_switch.v
+    /home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv
+
+
+*Error* Syntax error at ;
+"/home/hao/wrk/my_verilog/sort-master/order_1_4_tb.sv", 22: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_1_4_tb.sv", 34: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_1_4_tb.sv", 35: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_1_4_tb.sv", 36: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_1_4_tb.sv", 37: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_1_4_tb.sv", 55: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_1_4_tb.sv", 56: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_1_4_tb.sv", 57: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_1_4_tb.sv", 58: 
+
+*Error* Syntax error at ;
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 22: 
+
+*Error* Syntax error at ;
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 35: 
+
+*Error* Syntax error at kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 36: 
+
+*Error* Syntax error at {
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 37: 
+
+*Error* Syntax error at p
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 40: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 45: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 46: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 47: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 48: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 49: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 50: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 51: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 52: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 53: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 54: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 55: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 56: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 57: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 58: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 59: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 60: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 61: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 62: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 63: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 64: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 65: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 66: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 67: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 68: 
+
+*Error* Syntax error at [
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 69: 
+
+*Error* id00 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 72: 
+
+*Error* id01 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 73: 
+
+*Error* id02 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 74: 
+
+*Error* id03 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 75: 
+
+*Error* id04 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 76: 
+
+*Error* id05 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 77: 
+
+*Error* id06 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 78: 
+
+*Error* id07 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 79: 
+
+*Error* id08 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 80: 
+
+*Error* id09 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 81: 
+
+*Error* id10 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 82: 
+
+*Error* id11 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 83: 
+
+*Error* id12 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 84: 
+
+*Error* id13 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 85: 
+
+*Error* id14 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 86: 
+
+*Error* id15 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 87: 
+
+*Error* id16 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 88: 
+
+*Error* id17 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 89: 
+
+*Error* id18 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 90: 
+
+*Error* id19 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 91: 
+
+*Error* id20 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 92: 
+
+*Error* id21 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 93: 
+
+*Error* id22 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 94: 
+
+*Error* id23 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 95: 
+
+*Error* id24 is referenced before declaration
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 96: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 72: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 73: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 74: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 75: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 76: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 77: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 78: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 79: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 80: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 81: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 82: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 83: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 84: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 85: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 86: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 87: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 88: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 89: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 90: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 91: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 92: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 93: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 94: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 95: 
+
+*Error* illegal LHS in procedural assignment
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 96: 
+Highest level modules:
+order_1_4_tb
+order_25D_switch_tb
+
+
+*Error* failed to find identifier clk_c0.run
+"/home/hao/wrk/my_verilog/sort-master/order_1_4_tb.sv", 31: 
+
+*Error* view clock_rst is not defined for instance clk_c0
+"/home/hao/wrk/my_verilog/sort-master/order_1_4_tb.sv", 24: 
+
+*Error* view cross_clk_sync is not defined for instance latency
+"/home/hao/wrk/my_verilog/sort-master/order_25D_model_0.v", 173: 
+
+*Error* view cross_clk_sync is not defined for instance latency
+"/home/hao/wrk/my_verilog/sort-master/order_25D_model_1.v", 171: 
+
+*Error* failed to find identifier clk_c0.run
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 31: 
+
+*Error* failed to find identifier p
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 42: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 72: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 72: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 73: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 73: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 74: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 74: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 75: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 75: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 76: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 76: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 77: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 77: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 78: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 78: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 79: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 79: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 80: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 80: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 81: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 81: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 82: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 82: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 83: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 83: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 84: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 84: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 85: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 85: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 86: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 86: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 87: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 87: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 88: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 88: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 89: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 89: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 90: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 90: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 91: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 91: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 92: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 92: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 93: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 93: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 94: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 94: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 95: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 95: 
+
+*Error* failed to find identifier p.kind
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 96: 
+
+*Error* failed to find identifier p.randomize
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 96: 
+
+*Error* view clock_rst is not defined for instance clk_c0
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 24: 
+
+*Error* view randc is not defined for instance bit
+"/home/hao/wrk/my_verilog/sort-master/order_25D_switch_tb.sv", 36: 
+Total	147 error(s),   0 warning(s)
