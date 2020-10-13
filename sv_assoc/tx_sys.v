@@ -12,7 +12,7 @@ module tx_sys (
 
 );
 
-reg    [3:0]  write_cnt  ;
+reg    [1:0]  write_cnt  ;
 always@(posedge clk or negedge rst_n)
 begin
 	if (~rst_n) begin
@@ -30,8 +30,8 @@ begin
 		ren            <=  'd0       ;
 	end
 	else   begin
-		wen            <=  (write_cnt==4'd10 ) ;
-		ren            <=  (write_cnt==4'd15 ) ;
+		wen            <=  (write_cnt==2'd0 ) ;
+		ren            <=  (write_cnt==2'd2 ) ;
 	end
 end
 always@(posedge clk or negedge rst_n)
@@ -40,7 +40,7 @@ begin
 		addr           <=  'd0       ;
 		wdin           <=  'd0       ;
 	end
-	else  if ((write_cnt==4'd10 ) )  begin
+	else  if ((write_cnt==2'd0 ) )  begin
 		addr            <=  {$random}%4294967295;
 		wdin           <=   {$random}%4294967295;
 	end

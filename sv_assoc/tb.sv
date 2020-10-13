@@ -16,7 +16,7 @@ initial begin
 	$fsdbAutoSwitchDumpfile(500,"tb_top.fsdb",100);
 	$fsdbDumpvars(0,tb);
 
-	#50_000_000
+	#100_000_000
 	$finish;
 end
 
