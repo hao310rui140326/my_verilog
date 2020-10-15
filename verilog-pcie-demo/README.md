@@ -7,15 +7,21 @@ Modify form  GitHub repository: https://github.com/alexforencich/verilog-pcie
 Direct tlp tx 
 
 	4x-in
-	1-out  pcie3x16
+
+	1x-out  pcie3x16
 
 ## Sim
+
 vcs:
-./sim  
+
+./sim
+  
 	make
 
 iverilog:
+
 ./tb
+
 	./test_dma_c2h.py
 
 
