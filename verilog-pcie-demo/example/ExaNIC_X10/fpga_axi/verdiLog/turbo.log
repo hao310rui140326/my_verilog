@@ -1,0 +1,3 @@
+Command Line: /home/guow/synopsys/verdi/2013.07/platform/LINUXAMD64/bin/Novas -ssy -ssv -f filelist.f -top fpga
+uname(Linux guowei7lc10 4.4.0-17763-Microsoft #864-Microsoft Thu Nov 07 15:22:00 PST 2019 x86_64)
+au time 15.740140 0.062500 0.781250 delta 2490368 3006464 total 5637112 6153208
