@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Oct 15 08:34:39 2020
+# Process ID: 331344
+# Current directory: /home/hao/wrk/my_git/my_verilog/PCIE-TLP-DEMO/example/VU37P/fpga_axi/fpga
+# Command line: vivado
+# Log file: /home/hao/wrk/my_git/my_verilog/PCIE-TLP-DEMO/example/VU37P/fpga_axi/fpga/vivado.log
+# Journal file: /home/hao/wrk/my_git/my_verilog/PCIE-TLP-DEMO/example/VU37P/fpga_axi/fpga/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/hao/wrk/my_git/my_verilog/PCIE-TLP-DEMO/example/VU37P/fpga_axi/fpga/fpga.xpr
+INFO: [Project 1-313] Project file moved from 'D:/guow_test/verilog-pcie-demo/example/VU37P/fpga_axi/fpga' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 6502.828 ; gain = 173.492 ; free physical = 9712 ; free virtual = 20691
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 15 08:35:35 2020...

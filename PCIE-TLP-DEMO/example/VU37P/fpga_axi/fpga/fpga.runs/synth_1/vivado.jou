@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jun 15 18:41:26 2020
+# Process ID: 56388
+# Current directory: D:/guow_test/verilog-pcie-demo/example/VU37P/fpga_axi/fpga/fpga.runs/synth_1
+# Command line: vivado.exe -log fpga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fpga.tcl
+# Log file: D:/guow_test/verilog-pcie-demo/example/VU37P/fpga_axi/fpga/fpga.runs/synth_1/fpga.vds
+# Journal file: D:/guow_test/verilog-pcie-demo/example/VU37P/fpga_axi/fpga/fpga.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fpga.tcl -notrace

@@ -1,0 +1,580 @@
+*design* DebussyLib (btIdent Verdi3_L-2016.06-1)
+Command arguments:
+    +define+verilog
+    /home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/arbiter.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/axis_arb_mux.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_client_axis_sink.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_client_axis_source.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_mux.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_mux_rd.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_mux_wr.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us_rd.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us_wr.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_psdpram.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_axi_dma_desc_mux.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_tag_manager.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_dma.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_dma_rd.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_dma_wr.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_master.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_master_rd.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_master_wr.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axil_master.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axis_cq_demux.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axis_rc_demux.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_cfg.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_sub_top.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_msi.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/priority_encoder.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pulse_merge.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/arbiter.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/axis_adapter.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/axis_fifo.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/axis_fifo_adapter.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/dma_client_port.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/dma_if_pcie_reg_wr.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/dma_if_pcie_us_wr.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/dma_psdpram.v
+    -f /home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/filelist.f
+        tb_top.v
+        dma_client_port.v
+        arbiter.v
+        priority_encoder.v
+        dma_psdpram.v
+        gen_frame_sim.v
+        pcie_dma_c2h_top.v
+        dma_if_pcie_us_wr.v
+        dma_if_pcie_reg_wr.v
+        axis_adapter.v
+        axis_fifo.v
+        axis_fifo_adapter.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/gen_frame_sim.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/pcie_dma_c2h_top.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/priority_encoder.v
+    /home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/tb_top.v
+
+
+*Error* `include file "sim_define.vh" cannot be read
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 11: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 71: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 76: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 93: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 94: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 95: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 96: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 97: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 98: 
+
+*Error* TAG_WIDTH is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 98: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 99: 
+
+*Error* LEN_WIDTH is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 99: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 101: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 102: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 103: 
+
+*Error* LEN_WIDTH is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 103: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 104: 
+
+*Error* TAG_WIDTH is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 104: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 105: 
+
+*Error* gen_frame_sim_rst is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 140: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 144: 
+
+*Error* LEN_WIDTH is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 145: 
+
+*Error* LEN_WIDTH is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 145: 
+
+*Error* LEN_WIDTH is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 319: 
+
+*Error* TAG_WIDTH is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 320: 
+
+*Error* PORTS is referenced before declaration
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 324: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 34: 
+
+*Error* unknown range declaration in read_frame_enb
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 71: 
+
+*Error* unknown range declaration in enable_port
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 76: 
+
+*Error* unknown range declaration in s_axis_tdata
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 93: 
+
+*Error* unknown range declaration in s_axis_tkeep
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 94: 
+
+*Error* unknown range declaration in s_axis_tvalid
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 95: 
+
+*Error* unknown range declaration in s_axis_tready
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 96: 
+
+*Error* unknown range declaration in s_axis_tlast
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 97: 
+
+*Error* unknown range declaration in s_axis_tid
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 98: 
+
+*Error* unknown range declaration in s_axis_tdest
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 99: 
+
+*Error* unknown range declaration in read_frame_tdata
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 101: 
+
+*Error* unknown range declaration in read_frame_ready
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 102: 
+
+*Error* unknown range declaration in read_frame_len
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 103: 
+
+*Error* unknown range declaration in read_frame_tag
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 104: 
+
+*Error* unknown range declaration in read_frame_sop
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 105: 
+
+*Error* unknown range declaration in gen_frame_sim_rst
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 382: 
+
+*Error* nonconstant index
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 342: 
+
+*Error* nonconstant index
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 354: 
+
+*Error* nonconstant index
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 355: 
+
+*Error* nonconstant index
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 356: 
+
+*Error* nonconstant index
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 357: 
+
+*Error* nonconstant index
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 444: 
+
+*Error* nonconstant index
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 445: 
+
+*Error* nonconstant index
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 446: 
+
+*Error* nonconstant index
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 447: 
+
+*Error* nonconstant index
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 448: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/axis_arb_mux.v", 88: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_client_axis_sink.v", 43: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_client_axis_sink.v", 128: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_client_axis_sink.v", 129: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_client_axis_sink.v", 133: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_client_axis_sink.v", 135: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_client_axis_sink.v", 136: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_client_axis_source.v", 43: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_client_axis_source.v", 127: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_client_axis_source.v", 128: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_client_axis_source.v", 132: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_client_axis_source.v", 134: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_client_axis_source.v", 135: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_mux.v", 48: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_mux.v", 50: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_mux.v", 59: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_mux_rd.v", 48: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_mux_rd.v", 50: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_mux_rd.v", 59: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_mux_rd.v", 124: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_mux_wr.v", 48: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_mux_wr.v", 50: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_mux_wr.v", 59: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_mux_wr.v", 126: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us.v", 57: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us.v", 63: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us_rd.v", 57: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us_rd.v", 63: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us_rd.v", 163: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us_rd.v", 164: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us_rd.v", 166: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us_wr.v", 55: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us_wr.v", 158: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us_wr.v", 159: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us_wr.v", 160: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us_wr.v", 161: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us_wr.v", 166: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_if_pcie_us_wr.v", 168: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/dma_psdpram.v", 72: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_axi_dma_desc_mux.v", 46: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_axi_dma_desc_mux.v", 89: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_tag_manager.v", 35: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_dma.v", 61: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_dma_rd.v", 61: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_dma_rd.v", 169: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_dma_rd.v", 175: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_dma_rd.v", 178: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_dma_wr.v", 160: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_dma_wr.v", 166: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_dma_wr.v", 167: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_dma_wr.v", 173: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_master_rd.v", 115: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_master_rd.v", 121: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_master_wr.v", 96: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axi_master_wr.v", 102: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axis_cq_demux.v", 84: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_axis_rc_demux.v", 80: 
+
+*Error* Syntax error at .
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 167: 
+
+*Error* Syntax error at .
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 168: 
+
+*Error* Syntax error at .
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 169: 
+
+*Error* Syntax error at .
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 170: 
+
+*Error* Syntax error at .
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 171: 
+
+*Error* Syntax error at .
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 172: 
+
+*Error* Syntax error at )
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 173: 
+
+*Error* Syntax error at .
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 195: 
+
+*Error* Syntax error at .
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 196: 
+
+*Error* Syntax error at .
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 197: 
+
+*Error* Syntax error at .
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 198: 
+
+*Error* Syntax error at .
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 199: 
+
+*Error* Syntax error at .
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 200: 
+
+*Error* Syntax error at )
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 201: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 51: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_sub_top.v", 96: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_sub_top.v", 129: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_sub_top.v", 132: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_sub_top.v", 141: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/priority_encoder.v", 46: 
+
+*Error* Module arbiter redefined
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/arbiter.v", 32: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/axis_adapter.v", 104: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/axis_fifo.v", 113: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/dma_client_port.v", 21: 
+
+*Error* nonconstant index
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/dma_client_port.v", 193: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/dma_if_pcie_reg_wr.v", 31: 
+
+*Error* Module dma_if_pcie_us_wr redefined
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/dma_if_pcie_us_wr.v", 8: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/dma_if_pcie_us_wr.v", 31: 
+
+*Error* Module dma_psdpram redefined
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/dma_psdpram.v", 32: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/dma_psdpram.v", 72: 
+
+*Error* non-constant instance parameter
+"tb_top.v", 28: 
+
+*Error* Module dma_client_port redefined
+"dma_client_port.v", 8: 
+
+*Error* non-constant instance parameter
+"dma_client_port.v", 21: 
+
+*Error* nonconstant index
+"dma_client_port.v", 193: 
+
+*Error* Module arbiter redefined
+"arbiter.v", 32: 
+
+*Error* Module priority_encoder redefined
+"priority_encoder.v", 32: 
+
+*Error* non-constant instance parameter
+"priority_encoder.v", 46: 
+
+*Error* Module dma_psdpram redefined
+"dma_psdpram.v", 32: 
+
+*Error* non-constant instance parameter
+"dma_psdpram.v", 72: 
+
+*Error* non-constant instance parameter
+"pcie_dma_c2h_top.v", 43: 
+
+*Error* Module dma_if_pcie_us_wr redefined
+"dma_if_pcie_us_wr.v", 8: 
+
+*Error* non-constant instance parameter
+"dma_if_pcie_us_wr.v", 31: 
+
+*Error* Module dma_if_pcie_reg_wr redefined
+"dma_if_pcie_reg_wr.v", 8: 
+
+*Error* non-constant instance parameter
+"dma_if_pcie_reg_wr.v", 31: 
+
+*Error* Module axis_adapter redefined
+"axis_adapter.v", 32: 
+
+*Error* non-constant instance parameter
+"axis_adapter.v", 104: 
+
+*Error* Module axis_fifo redefined
+"axis_fifo.v", 32: 
+
+*Error* non-constant instance parameter
+"axis_fifo.v", 113: 
+
+*Error* Module axis_fifo_adapter redefined
+"axis_fifo_adapter.v", 32: 
+
+*Error* Module gen_frame_sim redefined
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/gen_frame_sim.v", 5: 
+
+*Error* Module pcie_dma_c2h_top redefined
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/pcie_dma_c2h_top.v", 5: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/pcie_dma_c2h_top.v", 43: 
+
+*Error* Module priority_encoder redefined
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/priority_encoder.v", 32: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/priority_encoder.v", 46: 
+
+*Error* Module tb_top redefined
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/tb_top.v", 5: 
+
+*Error* non-constant instance parameter
+"/home/hao/wrk/my_nic/verilog-pcie-demo/c2h_dma/tb_top.v", 28: 
+Highest level modules:
+test_dma_c2h_tb
+axis_arb_mux
+pcie_axi_dma_desc_mux
+pcie_us_axi_dma
+pcie_us_axi_master
+pcie_us_axil_master
+pcie_us_axis_rc_demux
+pcie_us_cfg
+pcie_us_dma_sub_top
+pcie_us_msi
+dma_if_pcie_reg_wr
+tb_top
+
+
+*Error* failed to find identifier DEFAULT_QUEUE_DEPTH[(i * LEN_WIDTH)+:LEN_WIDTH]
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 145: 
+
+*Error* view fifo_read_monitor is not defined for instance fifo_read_monitor_inst
+"/home/hao/wrk/my_nic/verilog-pcie-demo/tb/test_dma_c2h_tb.v", 437: 
+
+*Error* view c2h_dma_ram_inst is not defined for instance c2h_dma_ram_inst
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 174: 
+
+*Error* view h2c_dma_ram_inst is not defined for instance h2c_dma_ram_inst
+"/home/hao/wrk/my_nic/verilog-pcie-demo/rtl/pcie_us_dma_axis.v", 202: 
+Total	169 error(s),   0 warning(s)

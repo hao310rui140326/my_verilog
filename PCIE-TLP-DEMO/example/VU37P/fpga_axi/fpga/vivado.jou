@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Oct 15 08:34:39 2020
+# Process ID: 331344
+# Current directory: /home/hao/wrk/my_git/my_verilog/PCIE-TLP-DEMO/example/VU37P/fpga_axi/fpga
+# Command line: vivado
+# Log file: /home/hao/wrk/my_git/my_verilog/PCIE-TLP-DEMO/example/VU37P/fpga_axi/fpga/vivado.log
+# Journal file: /home/hao/wrk/my_git/my_verilog/PCIE-TLP-DEMO/example/VU37P/fpga_axi/fpga/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/hao/wrk/my_git/my_verilog/PCIE-TLP-DEMO/example/VU37P/fpga_axi/fpga/fpga.xpr
+update_compile_order -fileset sources_1

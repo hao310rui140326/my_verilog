@@ -1,0 +1,13 @@
++incdir+./
+tb_top.v
+../c2h_dma/dma_client_port.v
+../c2h_dma/arbiter.v
+../c2h_dma/priority_encoder.v
+../c2h_dma/dma_psdpram.v
+./gen_frame_sim.v
+../c2h_dma/pcie_dma_c2h_top.v
+../c2h_dma/dma_if_pcie_us_wr.v
+../c2h_dma/dma_if_pcie_reg_wr.v
+../c2h_dma/axis_adapter.v
+../c2h_dma/axis_fifo.v
+../c2h_dma/axis_fifo_adapter.v
