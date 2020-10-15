@@ -14,14 +14,21 @@ Direct tlp tx
 
 vcs:
 
-./sim
+	./sim
   
-	make
+		make
 
 iverilog:
 
-./tb
+	./tb
 
-	./test_dma_c2h.py
+		./test_dma_c2h.py
+
+
+## FPGA
+
+	VU37P
+
+	./example/VU37P/fpga_axi/fpga/
 
 
