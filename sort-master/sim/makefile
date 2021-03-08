@@ -48,7 +48,7 @@ default :
 	echo "\`define  $(CASE)       "  >>  define.v
 	echo "\`define  $(OCHECK_10_HEAD)       "  >>  define.v
 	echo "\`define  $(OCHECK_50_HEAD)       "  >>  define.v
-	vcs -full64 -lca -timescale=1ns/1ps  -P  $(verdi_path)/share/PLI/VCS/LINUX64/novas.tab   $(verdi_path)/share/PLI/VCS/LINUX64/pli.a +vcs+lic+wait +vcd+vcdpluson  -sverilog +verilog2001ext+.v  +lint=TFIPC-L    -debug_all   -f tb.vc -top tb       -l vcs_com.log
+	vcs -full64  -cpp g++-4.8 -cc gcc-4.8   -lca -timescale=1ns/1ps  -P  $(verdi_path)/share/PLI/VCS/LINUX64/novas.tab   $(verdi_path)/share/PLI/VCS/LINUX64/pli.a +vcs+lic+wait +vcd+vcdpluson  -sverilog +verilog2001ext+.v  +lint=TFIPC-L    -debug_all   -f tb.vc -top tb       -l vcs_com.log
 	./simv -debug_all         -l vcs_sim.log 
 ##	urg -dir     cov_result/my_cov_info_$(MODE)    -metric line+cond+fsm+tgl -report cov_report/report_$(MODE)   -format both
 ##	mv fpga_output.txt  fpga_output_$(MODE).txt
